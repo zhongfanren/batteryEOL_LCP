@@ -1,0 +1,27 @@
+diff --git a/layers/SelfAttention_Family.py b/layers/SelfAttention_Family.py
+index 070b56d..f3f5cb6 100644
+--- a/layers/SelfAttention_Family.py
++++ b/layers/SelfAttention_Family.py
+@@ -3,7 +3,10 @@ import torch.nn as nn
+ import numpy as np
+ from math import sqrt
+ from utils.masking import TriangularCausalMask, ProbMask
+-from reformer_pytorch import LSHSelfAttention
++try:
++    from reformer_pytorch import LSHSelfAttention
++except ImportError:  # Optional dependency; CPTransformer does not use Reformer.
++    LSHSelfAttention = None
+ 
+ 
+ class RoPEAttention(nn.Module):
+@@ -305,6 +308,10 @@ class ReformerLayer(nn.Module):
+     def __init__(self, attention, d_model, n_heads, d_keys=None,
+                  d_values=None, causal=False, bucket_size=4, n_hashes=4):
+         super().__init__()
++        if LSHSelfAttention is None:
++            raise ImportError(
++                "ReformerLayer requires the optional 'reformer_pytorch' package"
++            )
+         self.bucket_size = bucket_size
+         self.attn = LSHSelfAttention(
+             dim=d_model,

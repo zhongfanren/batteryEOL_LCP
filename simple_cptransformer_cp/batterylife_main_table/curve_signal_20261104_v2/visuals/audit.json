@@ -1,0 +1,30 @@
+{
+  "pages": 97,
+  "cdf_points": 37630,
+  "attribution_rows": 485,
+  "source_hashes": [
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\neighbourhoods\\fold_0_CPMLP_oof_cv.npz",
+      "sha256": "b27e2e3722462a46788d79798c924931e7ffaa72c827315cb9ff985ccf1a4200"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\neighbourhoods\\fold_1_CPMLP_oof_cv.npz",
+      "sha256": "ce209f3e40c058aa795c77e60d437862eac27b39745decebe0e50f48fdbc3dff"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\neighbourhoods\\fold_2_CPMLP_oof_cv.npz",
+      "sha256": "730ea5b091777dd9673284486cb7bd96f22c745a65636c65e0bc36df201d369c"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\neighbourhoods\\fold_3_CPMLP_oof_cv.npz",
+      "sha256": "ed801b107bb1d2c425940e39abf2d9d6a13af821aaeada2d75df278c1a998182"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\neighbourhoods\\fold_4_CPMLP_oof_cv.npz",
+      "sha256": "1fcda24d315b95e36786d0ab3a14d2f2a22669499a51336e642942b8063cb55a"
+    }
+  ],
+  "plot_script_sha256": "2c7ed911a0c801fd798f88ee9503c4f1323c902227f6b7ccf8e6a937f1945b15",
+  "all_queries_retained": true,
+  "interpretation": "Empirical tail screening, no CP finite-sample correction or infinity atom"
+}

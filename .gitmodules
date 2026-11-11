@@ -1,0 +1,6 @@
+[submodule "third_party/BatteryLife"]
+	path = third_party/BatteryLife
+	url = https://github.com/Ruifeng-Tan/BatteryLife.git
+[submodule "baselines/MambaLithium"]
+	path = baselines/MambaLithium
+	url = https://github.com/zshicode/MambaLithium.git

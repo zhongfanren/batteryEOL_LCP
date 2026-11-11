@@ -1,0 +1,31 @@
+{
+  "data_root": "D:\\BatteryLife_Processed",
+  "output_dir": "D:\\Battery-LCP\\battery_lcp\\outputs",
+  "landmarks": [
+    50,
+    100,
+    150,
+    200
+  ],
+  "start_cycle": 50,
+  "cycle_step": 10,
+  "epochs": 100,
+  "patience": 20,
+  "oof_folds": 3,
+  "oof_epochs": 40,
+  "batch_size": 16,
+  "d_model": 64,
+  "d_ff": 128,
+  "n_heads": 4,
+  "intra_layers": 1,
+  "transformer_layers": 2,
+  "dropout": 0.05,
+  "lr": 0.0005,
+  "wd": 1e-05,
+  "alpha": 0.1,
+  "model_val_cells": 12,
+  "kernel_steps": 400,
+  "min_ess": 10.0,
+  "seed": 2024,
+  "device": "cuda"
+}

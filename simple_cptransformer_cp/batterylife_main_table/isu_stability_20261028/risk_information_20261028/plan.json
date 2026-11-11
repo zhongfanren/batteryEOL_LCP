@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-28T17:31:28+08:00",
+  "code_sha256": "53f2370641f972d47f4a4c6632adbc1e643a5c01be1de21c69a8a5c6b7b5bd6c",
+  "primary": "s20261026_r2024_CPMLP",
+  "families": [
+    "constant",
+    "life",
+    "protocol",
+    "embedding",
+    "curve_summary",
+    "disagreement",
+    "novelty"
+  ],
+  "point_predictors": "all 18 frozen; no selection",
+  "ridge_alpha": 10,
+  "logistic_C": 0.1,
+  "large_error_threshold": 0.5,
+  "life_basis": "log prediction; training-only quantile knots4, degree2 spline",
+  "extras": "training-only residualization against life basis, Ridge alpha1, standardize and divide sqrt(dim)",
+  "folds": "5-fold GroupKFold by filename G condition, paired training20/all",
+  "seed": 20261028,
+  "hyperparameter_search": false,
+  "status": "post-hoc exploratory; historical cal/test used for diagnostic risk CV; no final CP claim"
+}

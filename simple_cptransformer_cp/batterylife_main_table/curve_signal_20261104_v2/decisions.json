@@ -1,0 +1,65 @@
+{
+  "gate": "OOF-CV pinball improves >=2% vs matched life-only route with >=3/5 fold wins; dev20 gain positive and >=3/5 views better. Exploratory screen only, not an automatic CP success.",
+  "rows": [
+    {
+      "model": "CPMLP",
+      "method": "qr_hand",
+      "advance_signal": false
+    },
+    {
+      "model": "CPMLP",
+      "method": "qr_embedding",
+      "advance_signal": false
+    },
+    {
+      "model": "CPMLP",
+      "method": "qr_curve",
+      "advance_signal": false
+    },
+    {
+      "model": "CPMLP",
+      "method": "kernel_hand",
+      "advance_signal": true
+    },
+    {
+      "model": "CPMLP",
+      "method": "kernel_embedding",
+      "advance_signal": false
+    },
+    {
+      "model": "CPMLP",
+      "method": "kernel_curve",
+      "advance_signal": true
+    },
+    {
+      "model": "CPLSTM",
+      "method": "qr_hand",
+      "advance_signal": false
+    },
+    {
+      "model": "CPLSTM",
+      "method": "qr_embedding",
+      "advance_signal": false
+    },
+    {
+      "model": "CPLSTM",
+      "method": "qr_curve",
+      "advance_signal": false
+    },
+    {
+      "model": "CPLSTM",
+      "method": "kernel_hand",
+      "advance_signal": true
+    },
+    {
+      "model": "CPLSTM",
+      "method": "kernel_embedding",
+      "advance_signal": false
+    },
+    {
+      "model": "CPLSTM",
+      "method": "kernel_curve",
+      "advance_signal": true
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "scope": "T=100 eligible cells in frozen mixed Li-ion pilot pool",
+  "data_root": "C:\\BatteryLife_v4",
+  "n_expected": 823,
+  "n_loaded": 823,
+  "problems": [],
+  "comparison_warning": "Equal structured charge/discharge fields do not prove equal ambient temperature, cell chemistry, formation, rest steps, EOL definition, measurement or lab batch. Source-specific encoding and filename/metadata conflicts must be checked.",
+  "source_counts": {
+    "CALCE": 13,
+    "HNEI": 14,
+    "HUST": 77,
+    "ISU_ILCC": 239,
+    "MATR": 169,
+    "MICH_EXP": 8,
+    "MICH": 40,
+    "RWTH": 48,
+    "SNL": 50,
+    "Stanford": 41,
+    "Tongji": 99,
+    "UL_PUR": 2,
+    "XJTU": 23
+  },
+  "cross_source_exact_schedules": [
+    {
+      "n_cells": 16,
+      "source_counts": {
+        "HNEI": 14,
+        "UL_PUR": 2
+      },
+      "example_cells": [
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl"
+      ],
+      "schedule": {
+        "charge_protocol": [
+          {
+            "rate_in_C": 2.0,
+            "current_in_A": null,
+            "voltage_in_V": null,
+            "power_in_W": null,
+            "start_voltage_in_V": null,
+            "start_soc": 0.0,
+            "end_voltage_in_V": null,
+            "end_soc": 1.0
+          }
+        ],
+        "discharge_protocol": [
+          {
+            "rate_in_C": 1.0,
+            "current_in_A": null,
+            "voltage_in_V": null,
+            "power_in_W": null,
+            "start_voltage_in_V": null,
+            "start_soc": 1.0,
+            "end_voltage_in_V": null,
+            "end_soc": 0.0
+          }
+        ]
+      },
+      "rates": {
+        "charge_protocol": [
+          2.0
+        ],
+        "discharge_protocol": [
+          1.0
+        ]
+      },
+      "full_metadata": null
+    }
+  ],
+  "cross_source_exact_full_metadata": [],
+  "cross_source_matching_rate_sequences": [
+    {
+      "n_cells": 24,
+      "source_counts": {
+        "HNEI": 14,
+        "UL_PUR": 2,
+        "XJTU": 8
+      },
+      "example_cells": [
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_a.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_b.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_c.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_d.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_e.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_f.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_g.pkl",
+        "HNEI_18650_NMC_LCO_25C_0-100_0.5-1.5C_j.pkl"
+      ],
+      "schedule": {
+        "charge_protocol": [
+          {
+            "rate_in_C": 2.0,
+            "current_in_A": null,
+            "voltage_in_V": null,
+            "power_in_W": null,
+            "start_voltage_in_V": null,
+            "start_soc": 0.0,
+            "end_voltage_in_V": null,
+            "end_soc": 1.0
+          }
+        ],
+        "discharge_protocol": [
+          {
+            "rate_in_C": 1.0,
+            "current_in_A": null,
+            "voltage_in_V": null,
+            "power_in_W": null,
+            "start_voltage_in_V": null,
+            "start_soc": 1.0,
+            "end_voltage_in_V": null,
+            "end_soc": 0.0
+          }
+        ]
+      },
+      "rates": {
+        "charge_protocol": [
+          2.0
+        ],
+        "discharge_protocol": [
+          1.0
+        ]
+      },
+      "full_metadata": null
+    },
+    {
+      "n_cells": 21,
+      "source_counts": {
+        "ISU_ILCC": 16,
+        "SNL": 5
+      },
+      "example_cells": [
+        "ISU-ILCC_G16C1.pkl",
+        "ISU-ILCC_G16C2.pkl",
+        "ISU-ILCC_G16C3.pkl",
+        "ISU-ILCC_G16C4.pkl",
+        "ISU-ILCC_G1C1.pkl",
+        "ISU-ILCC_G1C2.pkl",
+        "ISU-ILCC_G1C3.pkl",
+        "ISU-ILCC_G1C4.pkl"
+      ],
+      "schedule": {
+        "charge_protocol": [
+          {
+            "rate_in_C": 0.5,
+            "current_in_A": null,
+            "voltage_in_V": null,
+            "power_in_W": null,
+            "start_voltage_in_V": null,
+            "start_soc": 1,
+            "end_voltage_in_V": null,
+            "end_soc": 1.0
+          }
+        ],
+        "discharge_protocol": [
+          {
+            "rate_in_C": 0.5,
+            "current_in_A": null,
+            "voltage_in_V": null,
+            "power_in_W": null,
+            "start_voltage_in_V": null,
+            "start_soc": 1.0,
+            "end_voltage_in_V": null,
+            "end_soc": 1
+          }
+        ]
+      },
+      "rates": {
+        "charge_protocol": [
+          0.5
+        ],
+        "discharge_protocol": [
+          0.5
+        ]
+      },
+      "full_metadata": null
+    }
+  ]
+}

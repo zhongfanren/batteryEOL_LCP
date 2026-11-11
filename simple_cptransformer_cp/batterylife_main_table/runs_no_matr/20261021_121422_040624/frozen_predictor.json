@@ -1,0 +1,24 @@
+{
+  "state": "frozen_for_cp_lcp",
+  "created_at": "2026-10-21T12:24:36",
+  "run_dir": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\runs_no_matr\\20261021_121422_040624",
+  "predictor": "CPMLP",
+  "seed": 2021,
+  "no_matr_in_training_validation_scaler_or_selection": true,
+  "target_prediction_protocol": "one T=100 prediction per MATR cell",
+  "matr_cell_counts": {
+    "train": 102,
+    "val": 34,
+    "test": 33
+  },
+  "initial_calibration": "original MATR train+validation (136 cells)",
+  "initial_test": "original MATR test (33 cells; exploratory because viewed previously)",
+  "changing_matr_calibration_test_split_requires_predictor_retraining": false,
+  "sha256": {
+    "best_model.pt": "4dcb2a333aef72d9d062c7aca63337639be61d8d400f3c607c92d46096b2d815",
+    "config.json": "1a9e97cea49f33fb598662cb73ed5c2ffdd9c88e8f9d3d434eee7a19b7905e25",
+    "metrics.json": "9ce59722edc9ecaecaa5c9232a7d1f8a529b52231440b11ed41467676a9d281e",
+    "source_split_cells.json": "6c6eddd5dfe884f60619e5f4b8d93f4de6ce402dfae810141c1e24df77c1ed99",
+    "matr_all_t100_predictions.csv": "1a03926dcc2e5a1ea1197a7b0eff74e5f4dacbc2a259007a2be03afad75eb637"
+  }
+}

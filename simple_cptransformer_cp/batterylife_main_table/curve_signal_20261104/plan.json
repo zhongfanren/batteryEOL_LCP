@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-11-04T22:25:07+08:00",
+  "code_sha256": "e72e712401deb69b4dc8996b673017fe250d67969bc534c8d0f179cf962dd18e",
+  "hypotheses": [
+    "Hfeature: low-dimensional input summaries or frozen embeddings improve relative-error q90 beyond lifetime",
+    "Hneighbour: a fixed curve neighbourhood estimates the error tail better than lifetime-only without a learned risk scalar"
+  ],
+  "data": "original train97 OOF and original dev20 only; original cal/test excluded",
+  "point_training": false,
+  "models": [
+    "CPMLP",
+    "CPLSTM"
+  ],
+  "methods": [
+    "qr_life",
+    "qr_hand",
+    "qr_embedding",
+    "qr_curve",
+    "kernel_global",
+    "kernel_life",
+    "kernel_hand",
+    "kernel_embedding",
+    "kernel_curve"
+  ],
+  "quantile": 0.9,
+  "regression_alpha": 0.01,
+  "pca_components": 3,
+  "kernel_bandwidth_rule": "0.5*median positive reference pairwise distance; no tuning",
+  "feature_families": {
+    "hand": "9 model-input early/change/RMS descriptors",
+    "embedding": "fold-specific frozen encoder; no pooling coordinate systems",
+    "curve": "57 time features, six balanced blocks for distances"
+  },
+  "validation": "OOF leave auxiliary fold out (screen only; overlapping reference OOF fits); dev20 repeated five frozen-model views",
+  "decision": "OOF gain>=2% and >=3/5 fold wins vs matched life-only; positive dev gain and >=3/5 view wins; exploratory candidates only",
+  "plots": "all97 primary OOF queries; no outcome-based page selection",
+  "new_cp_evaluation": false
+}

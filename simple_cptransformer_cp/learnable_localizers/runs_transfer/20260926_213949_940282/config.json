@@ -1,0 +1,53 @@
+{
+  "experiment": "B: HUST-assisted self-supervised representation for MATR LCP",
+  "T": 100,
+  "target_dataset": "MATR",
+  "auxiliary_dataset": "HUST train only",
+  "target_split_sizes": {
+    "train": 102,
+    "validation": 34,
+    "test": 33
+  },
+  "auxiliary_n": 47,
+  "seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "alpha": 0.1,
+  "methods": [
+    "split",
+    "fixed_rbf",
+    "hopfield_random",
+    "hopfield_ssl_matr",
+    "hopfield_ssl_matr_hust"
+  ],
+  "embedding_dim": 8,
+  "hidden_dim": 16,
+  "min_ess": 10.0,
+  "localizer_loss": "crps",
+  "ssl": {
+    "objective": "masked denoising reconstruction of 57 time features",
+    "epochs": 300,
+    "mask_rate": 0.2,
+    "noise_std": 0.05,
+    "lr": 0.001,
+    "weight_decay": 0.001
+  },
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "device": "cuda",
+  "data_root": "D:\\BatteryLife_Processed",
+  "code_sha256": "e8f231f444977fb9718e46955a18b8f0267a08c1d238c808526d9db2b8d4f537",
+  "test_usage": "exploratory; MATR test was viewed in earlier experiments",
+  "weighted_interval_status": "empirical basic-LCP diagnostic; no new local guarantee claimed"
+}

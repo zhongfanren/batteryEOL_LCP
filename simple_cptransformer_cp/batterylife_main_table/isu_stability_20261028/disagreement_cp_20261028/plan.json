@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-28T18:09:23+08:00",
+  "code_sha256": "41aa211851d168f7ae4d8333cdac73d723c33e2fc3bbe37795edf74f4d1274b4",
+  "primary": "s20261026_r2024_CPMLP",
+  "hypotheses": [
+    "Hscale: additive architecture-gap scale improves allocation beyond lifetime alone",
+    "Hlocal: adding gap to RLCP geometry helps beyond lifetime localization, with the same score"
+  ],
+  "methods": [
+    "split_cp",
+    "prediction_scale_cp",
+    "relative_cp",
+    "gap_scale_cp",
+    "relative_rlcp_life_h3",
+    "relative_rlcp_life_h6",
+    "relative_rlcp_life_gap_h3",
+    "relative_rlcp_life_gap_h6",
+    "gap_scale_rlcp_life_h3",
+    "gap_scale_rlcp_life_h6",
+    "gap_scale_rlcp_life_gap_h3",
+    "gap_scale_rlcp_life_gap_h6"
+  ],
+  "bandwidths": [
+    3,
+    6
+  ],
+  "gap_scale": "max(1,prediction)+absolute architecture mean gap; coefficient1 fixed",
+  "geometry": "train97 standardized log prediction and log1p(gap/max(1,prediction))",
+  "grouping": "dev20 covariate tertiles; no errors used",
+  "repetitions": 200,
+  "seed": 20261028,
+  "point_training": false,
+  "supervised_historical_risk_model_reused": false,
+  "analysis": "same-score global/local pairs, all 18 fits and h settings; retain infinity; no outcome-based choice",
+  "interpretation": "post-hoc historical exploration; no new confirmatory guarantee or per-group90% claim"
+}

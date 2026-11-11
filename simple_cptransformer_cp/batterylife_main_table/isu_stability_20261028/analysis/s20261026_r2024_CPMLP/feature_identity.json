@@ -1,0 +1,6 @@
+{
+  "checkpoint_sha256": "6a334e76742aeb0624d1b9217d93c4400ddd12606377ce8013cc3a1007a28279",
+  "source_manifest_sha256": "aeb517ee9e5201402fd5a15d372f637f9e32d45972cc1765a04baf4227cf728a",
+  "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_2024",
+  "model": "CPMLP"
+}

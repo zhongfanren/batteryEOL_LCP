@@ -1,0 +1,42 @@
+{
+  "T": 100,
+  "outer_folds": 5,
+  "outer_split_seed": 2024,
+  "calibration_per_fold": 20,
+  "seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "alpha": 0.1,
+  "methods": [
+    "split",
+    "fixed_rbf",
+    "hopfield_time",
+    "frequency"
+  ],
+  "embedding_dim": 8,
+  "hidden_dim": 16,
+  "localizer_encoder": "shared 48-feature trend + 9-feature variation gated encoder",
+  "min_ess": 10.0,
+  "localizer_epochs": 500,
+  "localizer_patience": 40,
+  "localizer_lr": 0.001,
+  "localizer_weight_decay": 0.001,
+  "localizer_loss": "crps",
+  "weighted_interval_status": "empirical basic-LCP diagnostic; no new local guarantee claimed",
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "device": "cuda",
+  "data_root": "D:\\BatteryLife_Processed",
+  "code_sha256": "ab429b7580d4c35c99056c34585133b48518f2047d0a1366c6f1ccbbe93a2b30"
+}

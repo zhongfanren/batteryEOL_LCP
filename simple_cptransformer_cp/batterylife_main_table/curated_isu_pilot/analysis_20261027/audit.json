@@ -1,0 +1,18 @@
+[
+  {
+    "model": "CPMLP",
+    "status": "pass",
+    "epochs": 13,
+    "best_epoch": 2,
+    "split_radius": 603.3287353515627,
+    "verified": "checkpoint/code/manifest hashes; train-only label scales; cell and label membership; T=100; point metrics; all local quantiles and ESS; normalized radii; coverage and widths"
+  },
+  {
+    "model": "CPLSTM",
+    "status": "pass",
+    "epochs": 13,
+    "best_epoch": 5,
+    "split_radius": 537.91015625,
+    "verified": "checkpoint/code/manifest hashes; train-only label scales; cell and label membership; T=100; point metrics; all local quantiles and ESS; normalized radii; coverage and widths"
+  }
+]

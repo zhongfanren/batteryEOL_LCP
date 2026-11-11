@@ -1,0 +1,9 @@
+{
+  "cache": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\shared_cache\\split_20261026\\processed_cache\\train_a85d5250a20eb1862abf.pkl",
+  "cache_sha256": "f23963a3547a4dd9f184bdae99ec1e6881346d1bd91cfb6869e279619539d144",
+  "labels": "C:\\BatteryLife_v4\\Life labels\\ISU-ILCC_labels.json",
+  "labels_sha256": "bf37d3ec3b1faefb4ef4406f4f020353adf673f749bbf81a6f7f51852bd4a735",
+  "bank_sha256": "4425e6f54edd32eb76cefe372b995689fe1c169299b1df2777c5026cc5430b00",
+  "cells": 97,
+  "curve_and_mask_parity": true
+}

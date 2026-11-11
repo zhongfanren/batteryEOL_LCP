@@ -1,0 +1,41 @@
+{
+  "experiment": "A: independent HUST replication",
+  "T": 100,
+  "dataset": "HUST",
+  "official_split_sizes": {
+    "train": 47,
+    "validation": 15,
+    "test": 15
+  },
+  "seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "alpha": 0.1,
+  "methods": [
+    "split",
+    "fixed_rbf",
+    "hopfield_time"
+  ],
+  "embedding_dim": 8,
+  "hidden_dim": 16,
+  "min_ess": 10.0,
+  "localizer_loss": "crps",
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "device": "cuda",
+  "data_root": "D:\\BatteryLife_Processed",
+  "code_sha256": "eec88f8bcdbc0161dda59c86cfbd2494d2a86289bad6ca234700fb588e16f6c1",
+  "test_usage": "used once after MATR hyperparameters were frozen",
+  "weighted_interval_status": "empirical basic-LCP diagnostic; no new local guarantee claimed"
+}

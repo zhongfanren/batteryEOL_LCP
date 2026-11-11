@@ -1,0 +1,77 @@
+{
+  "inputs": [
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\run_quantile_profile.py",
+      "sha256": "ee9661e231762c329398c41383c53f080820ef52a8280ebdfb91e051e0d54124"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\check_curve_signal.py",
+      "sha256": "1445e7249b4742708121767e0456fcc2f63dc04333d952de53c8f53cd9970eb8"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\run_isu_disagreement_cp.py",
+      "sha256": "41aa211851d168f7ae4d8333cdac73d723c33e2fc3bbe37795edf74f4d1274b4"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\audit.json",
+      "sha256": "c561d42b3a74d4a5bf644df78cf54f04f5464cd652117af60ce9125cd8888998"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\input_descriptors.npz",
+      "sha256": "dcbc807d230fbf80298478b698f13547ed00a3aae7094ae33df37f1873a08025"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_crossfit_risk_20261028\\oof_predictions.csv",
+      "sha256": "224c7724db4032031579a93ea0dd9f910fb5f2d33084ee30387ad8c9b97b99c3"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_crossfit_risk_20261028\\plan.json",
+      "sha256": "43145560899cfc1e39edafd5f0102c38f3ff038fb93572109d96446624122361"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_0_CPMLP.npz",
+      "sha256": "ac0a960507a5feeaabb6beb81293b1d5671f4342cd71a0d59ad241222b3fd058"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_1_CPMLP.npz",
+      "sha256": "4813d8945987ce701d639907b843c641d991f2c84f2f5614fff2be03053c244a"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_2_CPMLP.npz",
+      "sha256": "1a86dc8ab15a64dd4cde97a7187637069dd03634ac24bc625fdb2326f72f3412"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_3_CPMLP.npz",
+      "sha256": "7bd319cc1fb2f37d429b5092ba3d5b9d4b5ae68bde70b0721990b8a7fd047a12"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_4_CPMLP.npz",
+      "sha256": "d6ce7d7cef313ebe456d7bf6e8246afc35fb23d6b76052c1817f31e61a06ff94"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_0_CPLSTM.npz",
+      "sha256": "fc989453d7c47825f7421d40d2d62ee4e1fe29a540747173e0924c4fc68130c5"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_1_CPLSTM.npz",
+      "sha256": "7af4bd7c5b57c5d0c5cb9415e1e4fa16b4b98814a41f8a9f2f788e58a2b34a4c"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_2_CPLSTM.npz",
+      "sha256": "8002016b13394a4ab53e054ca4d08588388505ad2051be593bcbc3f22e8c145e"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_3_CPLSTM.npz",
+      "sha256": "e23bd8b2cd1efaa63227801bb78dd7331f52032d390bf4f46d0c6fb8fc452cfa"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curve_signal_20261104_v2\\frozen_features\\fold_4_CPLSTM.npz",
+      "sha256": "6311e2be14a9d62d0483ecd10c67e8ffdb884671e76826f1e1d1ddda77262baa"
+    }
+  ],
+  "inputs_unchanged": true,
+  "no_point_training": true,
+  "original_cal_test_evaluated": false,
+  "inner_fit_reference_disjoint_checks": 90,
+  "prediction_rows": 2758
+}

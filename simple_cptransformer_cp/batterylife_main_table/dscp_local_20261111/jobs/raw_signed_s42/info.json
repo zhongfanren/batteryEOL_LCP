@@ -1,0 +1,11 @@
+{
+  "best_epoch": 9,
+  "epochs_run": 12,
+  "target_scale": 401.9645421446411,
+  "train_temperature": 10.206343778021793,
+  "random_temperature": 0.41192997256255304,
+  "train_embedding_std_mean": 0.3584443926811218,
+  "device": "cuda",
+  "parameters": 40547,
+  "elapsed_seconds": 0.3279999999995198
+}

@@ -1,0 +1,30 @@
+{
+  "task": "MATR T=100 development-only extension of existing three-seed OOF ensemble",
+  "old_seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "new_seeds": [
+    7,
+    1024
+  ],
+  "split_seed": 2024,
+  "outer_folds": 5,
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "prior": "D:\\Battery-LCP\\simple_cptransformer_cp\\error_predictability\\runs_ensemble_disagreement\\20260909_214700_006033\\predictions.csv",
+  "prior_sha256": "8e9136b31a9d9a3605cda1acdb69d4cde3d79d2a8af9372a348c59d475542d29",
+  "script_sha256": "199bc11c5094ec06088c3705afa595743dbde5cb4a2430e790a0c981f3709d66",
+  "device": "cuda",
+  "official_validation_or_test_used": false
+}

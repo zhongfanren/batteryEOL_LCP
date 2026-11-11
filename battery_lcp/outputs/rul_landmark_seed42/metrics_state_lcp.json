@@ -1,0 +1,122 @@
+{
+  "50": {
+    "coverage": 0.9090909090909091,
+    "covered": 30,
+    "total": 33,
+    "mean_width": 564.0510075200688,
+    "median_width": 618.7701072692871,
+    "width_q90": 618.7701072692871,
+    "infinite_fraction": 0.0,
+    "ess_min": 23.36387447576995,
+    "ess_median": 27.979121833421473,
+    "ess_mean": 28.276715871669985,
+    "fallback_fraction": 0.0,
+    "mean_width_change_vs_split": -54.719099749218344,
+    "representation": {
+      "columns": [
+        "capacity_retention",
+        "capacity_slope_10",
+        "capacity_variability_10",
+        "internal_resistance",
+        "temperature_10"
+      ],
+      "dimension": 5,
+      "val_residual_similarity_spearman": -0.33485022440246326,
+      "cal_test_nearest_distance": {
+        "min": 0.2156813222348379,
+        "median": 0.6055035013930387,
+        "max": 2.865858547085769
+      }
+    }
+  },
+  "100": {
+    "coverage": 0.8787878787878788,
+    "covered": 29,
+    "total": 33,
+    "mean_width": 545.4945686333107,
+    "median_width": 567.9206088781357,
+    "width_q90": 567.9206088781357,
+    "infinite_fraction": 0.0,
+    "ess_min": 26.005760182682568,
+    "ess_median": 29.10810448947919,
+    "ess_mean": 29.118044607274584,
+    "fallback_fraction": 0.0,
+    "mean_width_change_vs_split": -22.426040244825003,
+    "representation": {
+      "columns": [
+        "capacity_retention",
+        "capacity_slope_10",
+        "capacity_variability_10",
+        "internal_resistance",
+        "temperature_10"
+      ],
+      "dimension": 5,
+      "val_residual_similarity_spearman": -0.12819121177330137,
+      "cal_test_nearest_distance": {
+        "min": 0.07204055852075478,
+        "median": 0.5008982067431293,
+        "max": 2.266141772746944
+      }
+    }
+  },
+  "150": {
+    "coverage": 0.9090909090909091,
+    "covered": 30,
+    "total": 33,
+    "mean_width": 531.8953028917313,
+    "median_width": 455.90935891866684,
+    "width_q90": 455.90935891866684,
+    "infinite_fraction": 0.0,
+    "ess_min": 23.276165963715435,
+    "ess_median": 26.686757743500376,
+    "ess_mean": 27.06211826164784,
+    "fallback_fraction": 0.0,
+    "mean_width_change_vs_split": 75.98594397306442,
+    "representation": {
+      "columns": [
+        "capacity_retention",
+        "capacity_slope_10",
+        "capacity_variability_10",
+        "internal_resistance",
+        "temperature_10"
+      ],
+      "dimension": 5,
+      "val_residual_similarity_spearman": -0.3234944160317295,
+      "cal_test_nearest_distance": {
+        "min": 0.19581255890453075,
+        "median": 0.6385553701124681,
+        "max": 4.196170422875151
+      }
+    }
+  },
+  "200": {
+    "coverage": 0.8787878787878788,
+    "covered": 29,
+    "total": 33,
+    "mean_width": 472.2850920377356,
+    "median_width": 387.8877986073494,
+    "width_q90": 944.9099352478986,
+    "infinite_fraction": 0.0,
+    "ess_min": 24.334618902207907,
+    "ess_median": 27.064940416900452,
+    "ess_mean": 27.618940770709823,
+    "fallback_fraction": 0.0,
+    "mean_width_change_vs_split": 84.39729343038618,
+    "representation": {
+      "columns": [
+        "capacity_retention",
+        "capacity_slope_10",
+        "capacity_variability_10",
+        "internal_resistance",
+        "temperature_10"
+      ],
+      "dimension": 5,
+      "val_residual_similarity_spearman": -0.2864627909404029,
+      "cal_test_nearest_distance": {
+        "min": 0.1453682425088645,
+        "median": 0.6642428388825594,
+        "max": 26.275446031595703
+      }
+    }
+  }
+}

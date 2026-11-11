@@ -1,0 +1,20 @@
+{
+  "candidates": {
+    "prediction_only": {
+      "mean_improvement": -0.019296005238539027,
+      "positive_seeds": 1,
+      "passes": false
+    },
+    "simple": {
+      "mean_improvement": -0.020671198887596016,
+      "positive_seeds": 2,
+      "passes": false
+    },
+    "multiscale": {
+      "mean_improvement": -0.05258264472793032,
+      "positive_seeds": 1,
+      "passes": false
+    }
+  },
+  "selected": null
+}

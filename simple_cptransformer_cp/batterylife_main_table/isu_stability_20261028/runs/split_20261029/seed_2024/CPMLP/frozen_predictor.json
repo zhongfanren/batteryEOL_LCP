@@ -1,0 +1,9 @@
+{
+  "frozen_at": "2026-10-28T13:01:23+08:00",
+  "model": "CPMLP",
+  "best_epoch": 7,
+  "checkpoint_sha256": "4720cda0d629121779ce72440257ec383f9cb754302b94ad4d4f11cd0dd72cf7",
+  "manifest_sha256": "66f511c7c7cfa89f86cb1208246a8640ae7442ab20e2f14bfaaddb4932e9b8fe",
+  "trained_on": "train; epoch selected using dev only",
+  "scaler_fit": "train only"
+}

@@ -1,0 +1,15 @@
+{
+  "rows": [
+    {
+      "model": "CPMLP",
+      "learned_geometry_gate": false,
+      "multi_quantile_increment": false
+    },
+    {
+      "model": "CPLSTM",
+      "learned_geometry_gate": false,
+      "multi_quantile_increment": false
+    }
+  ],
+  "action": "No final CP evaluation in this batch; only a passing screen warrants a separate frozen method study."
+}

@@ -1,0 +1,27 @@
+{
+  "task": "development-only T=100 generic variance and CPTransformer Split CP",
+  "outer_folds": 5,
+  "outer_split_seed": 2024,
+  "calibration_per_fold": 20,
+  "predictor_seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "alpha": 0.1,
+  "feature": "log10 variance of normalized Qd100(V)-Qd10(V) on 2.05-3.35 V grid",
+  "script_sha256": "1fd3b4513a7529e1c10550ad95a5dd68cb2a20b33c0cc5f92b669ded9eac42a5",
+  "official_validation_or_test_used": false,
+  "device": "cuda"
+}

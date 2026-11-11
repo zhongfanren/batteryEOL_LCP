@@ -1,0 +1,18 @@
+{
+  "decisions": {
+    "CPMLP": {
+      "advance_learned_tail": false,
+      "primary_variant": "pair_a01_primary",
+      "relative_pinball_gain_vs_constant": -0.06854559455766496,
+      "relative_pinball_gain_vs_life": -0.008396818050358412
+    },
+    "CPLSTM": {
+      "advance_learned_tail": false,
+      "primary_variant": "pair_a01_primary",
+      "relative_pinball_gain_vs_constant": -0.003160384228807267,
+      "relative_pinball_gain_vs_life": -0.012670860868951195
+    }
+  },
+  "interpretation": "Training-side model-selection diagnostic, not nested end-to-end validation. Auxiliary OOF models overlap and may have seen another risk fold's labels. No cal/test used; no new independence claim.",
+  "action": "No learned score or distance is added in this batch, regardless of gate. A passing gate warrants a separate frozen follow-up."
+}

@@ -1,0 +1,15 @@
+{
+  "completed_jobs": 10,
+  "elapsed_seconds": 2074.0,
+  "outer_cell_exclusion_passed": true,
+  "inner_epoch_selection_recomputed": true,
+  "stage_label_scaling_recomputed": true,
+  "all_original_interval_rows_checked": 2196,
+  "OOF_rows_reconciled": 194,
+  "risk_parameters_reconstructed": true,
+  "group_metrics_reaggregation_passed": true,
+  "tail_collapse_confirmed": true,
+  "constant_RLCP_equal_global_all_repetitions": true,
+  "warning": "No valid low/middle/high learned-tail-risk partition; all scores constant. NaN rho is undefined, not missing data.",
+  "sources_unchanged": true
+}

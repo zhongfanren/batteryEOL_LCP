@@ -1,0 +1,218 @@
+[
+  {
+    "job": "s20261026_r2021_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "e1d8430306cdc6d3135e4b235f1e11fc2b80e513d49c9ee8c84064ce5957af57"
+  },
+  {
+    "job": "s20261026_r2021_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "a34f30180bda950fa5adedd4fa311ae2d9a34702d90eb176d10b2db721f75965"
+  },
+  {
+    "job": "s20261026_r42_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "977c77243e0ef9e0d2f9e0c12eff5202b1273e94227578aa6e99e23210926d43"
+  },
+  {
+    "job": "s20261026_r42_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "951a587035fb44ae80b775730b90d0fc7117dc2e17c51c517de6bb854d2e2bc3"
+  },
+  {
+    "job": "s20261026_r2024_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "6a334e76742aeb0624d1b9217d93c4400ddd12606377ce8013cc3a1007a28279"
+  },
+  {
+    "job": "s20261026_r2024_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "e9c8f30c97de5d2b690332037150fd9fe50b3f1b2c867f997510a7469aef8e14"
+  },
+  {
+    "job": "s20261028_r2021_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "baed00608fb89fd311cae978fac45664cee4e3449a1dbef0e6eb24ee885b80f3"
+  },
+  {
+    "job": "s20261028_r2021_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "539baaf98f080dffacd5aff6e0e3f1a70087207f273c6c673dbdbf117a1f6fb9"
+  },
+  {
+    "job": "s20261028_r42_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "acc615679dd74c2f7256c64bfc3fbc745686beea11fa2ea374e203c056955f88"
+  },
+  {
+    "job": "s20261028_r42_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "285563dd969e2977b86745b42585027ac0b424a30f263805695e4eebc8fb4e97"
+  },
+  {
+    "job": "s20261028_r2024_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "4c03d446541e21e81a21a45d6f4cf076d464e6709ceacb8602affcb5a9fed903"
+  },
+  {
+    "job": "s20261028_r2024_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "73d62da60a1a9e5da6a9a7f5c778cb56e229904b4e3de9ed0eb2cfcd0de54b2c"
+  },
+  {
+    "job": "s20261029_r2021_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "20ce99fe18ba77fc1c23d970e0bdddd6d941f6b28c67f2e195b40884f7f43feb"
+  },
+  {
+    "job": "s20261029_r2021_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "0a95d6e6494e06a4296c30992c57bf14d2b04503978bb6948e3950945ae726ce"
+  },
+  {
+    "job": "s20261029_r42_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "8837e636d82842ebe2257956e3d253c628f18bdd06dda09d67f38eeeaa215d48"
+  },
+  {
+    "job": "s20261029_r42_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "9b21f44f1a2cf0923b2c0190610dd19f917a167bdecdedb8509673b6ad901957"
+  },
+  {
+    "job": "s20261029_r2024_CPMLP",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "4720cda0d629121779ce72440257ec383f9cb754302b94ad4d4f11cd0dd72cf7"
+  },
+  {
+    "job": "s20261029_r2024_CPLSTM",
+    "status": "pass",
+    "checked_repetitions": [
+      0,
+      1,
+      100,
+      200
+    ],
+    "complete_resplits": 200,
+    "checkpoint_sha256": "ed05b198eebd6b39ca52f98432adf29930087ef1b96114fe55cf8fb373fcf770"
+  }
+]

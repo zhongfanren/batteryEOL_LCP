@@ -1,0 +1,91 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated smoke-test artifacts
+battery_lcp/smoke_data/
+battery_lcp/smoke_outputs*/
+battery_lcp/validation_outputs/
+
+# Local environments and editor state
+.venv/
+venv/
+.idea/
+
+# Local secrets
+.env
+*.token
+
+# Keep complete research artifacts locally; GitHub holds code and review records.
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.joblib
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.ipynb
+paper.txt
+*.zip
+*.7z
+*.tar
+*.gz
+*.bin
+*.log
+
+# Downloaded datasets, derived caches, and smoke runs.
+dataset_v4/
+downloads_v4/
+processed_dataset_cache/
+processed_cache/
+shared_cache/
+cache/
+*smoke*/
+
+# Generated numeric outputs, fitted parameters, and runtime markers.
+metrics.json
+history.json
+*_history.json
+results.json
+summary.json
+feature_scalers.json
+feature_diagnostics.json
+kernel_parameters.json
+transform_and_models.json
+*_risk_models.json
+training.json
+oof_training.json
+cell_prefix_counts.json
+progress.json
+complete.json
+state.json
+*_state.json
+visualization_complete.json
+
+# Local workspace state and credentials.
+.local/
+.vscode/
+.codex/
+.agents/
+.aws/
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json

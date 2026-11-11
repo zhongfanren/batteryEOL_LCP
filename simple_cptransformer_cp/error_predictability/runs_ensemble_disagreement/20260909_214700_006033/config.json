@@ -1,0 +1,31 @@
+{
+  "ensemble_seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "outer_split_seed": 2024,
+  "ridge_alpha": 10.0,
+  "robust_scale": "median/IQR",
+  "feature_clip": [
+    -5,
+    5
+  ],
+  "risk_prediction_clip": "training target range",
+  "device": "cuda",
+  "data_root": "D:\\BatteryLife_Processed",
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "code_sha256": "418e09ccf898b593646dda16c08a64d641624bcfbbf3c6419b5fa43a9cb8ac5f"
+}

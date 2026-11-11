@@ -1,0 +1,37 @@
+{
+  "source_record": 14969822,
+  "archive": "Tongji.zip",
+  "time": "2026-10-21T10:54:06",
+  "files": {
+    "Tongji/Tongji1_CY25-05_1--11.pkl": {
+      "size": 10433494,
+      "sha256": "3067e353c335228c0c176e8d5308078fca11f7fe62fcffcbc4b8e44012e29fa0",
+      "crc32": "8b6c087f",
+      "compressed_bytes": 3673067
+    },
+    "Tongji/Tongji1_CY25-05_1--17.pkl": {
+      "size": 12352550,
+      "sha256": "33b27eec1a822e15ba5dc65d90d72b84a63595b473346af09746efd4b0936e9a",
+      "crc32": "ad7fe24f",
+      "compressed_bytes": 4327417
+    },
+    "Tongji/Tongji1_CY25-05_1--18.pkl": {
+      "size": 11943273,
+      "sha256": "ffee863c4bc7b7280ae417a132f3f3ad819da6c057199048a55b36228b22d357",
+      "crc32": "4003c420",
+      "compressed_bytes": 4211710
+    },
+    "Tongji/Tongji1_CY25-05_1--3.pkl": {
+      "size": 12280015,
+      "sha256": "b8873cdd9f44e5fa32ca40f353447a699ea09e0b9e9c62da61d3a95877d5b75b",
+      "crc32": "88f022fe",
+      "compressed_bytes": 4324259
+    },
+    "Tongji/Tongji1_CY25-05_1--7.pkl": {
+      "size": 10985895,
+      "sha256": "8f0967b1cb9d389af963021773876f243087258ac37259e6fd4f195f94c706dd",
+      "crc32": "4f8638e6",
+      "compressed_bytes": 3891039
+    }
+  }
+}

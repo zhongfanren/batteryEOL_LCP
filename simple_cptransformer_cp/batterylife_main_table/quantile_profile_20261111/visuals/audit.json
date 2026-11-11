@@ -1,0 +1,29 @@
+{
+  "pages": 97,
+  "cdf_points": 45156,
+  "attribution_rows": 582,
+  "sources": [
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\quantile_profile_20261111\\neighbourhoods\\fold_0_CPMLP_oof_cv.npz",
+      "sha256": "01022a559a3a14f668515399d863f45fe12e2fadf8fac4ba2f912432ae9b4476"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\quantile_profile_20261111\\neighbourhoods\\fold_1_CPMLP_oof_cv.npz",
+      "sha256": "8f813f663878aab97999c41f88dcce1e5da313aaca0379be7b8b04a2304140b6"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\quantile_profile_20261111\\neighbourhoods\\fold_2_CPMLP_oof_cv.npz",
+      "sha256": "0ff366e4b0c4dfcbdf17b70d0bccaf2a4736dc2b6b74ac09229c6689bc7e4f4c"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\quantile_profile_20261111\\neighbourhoods\\fold_3_CPMLP_oof_cv.npz",
+      "sha256": "22125650049353657bfd19bdc6416965b313644e2225462c0d7afe92293b1249"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\quantile_profile_20261111\\neighbourhoods\\fold_4_CPMLP_oof_cv.npz",
+      "sha256": "2ae26589e6caf67cb928627595fcc0f327920562fab803b51327c92511afc4c3"
+    }
+  ],
+  "all_queries_retained": true,
+  "plot_sha256": "4e89db18586465d02e5681ed0f873f96061d8e70055f7a99a79315a9cc13cb7f"
+}

@@ -1,0 +1,6 @@
+{
+  "metric_rows_recomputed": 756,
+  "condition_disjoint_folds": 180,
+  "every_cell_once_per_cv": true,
+  "mse_brier_rank_recomputed": true
+}

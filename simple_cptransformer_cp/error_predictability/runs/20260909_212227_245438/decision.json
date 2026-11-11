@@ -1,0 +1,21 @@
+{
+  "candidates": {
+    "simple": {
+      "mean_improvement": -1.2101052418659488,
+      "positive_seeds": 0,
+      "passes": false
+    },
+    "embedding": {
+      "mean_improvement": -0.2422347122246616,
+      "positive_seeds": 1,
+      "passes": false
+    },
+    "multiscale": {
+      "mean_improvement": -1011.9274447442639,
+      "positive_seeds": 0,
+      "passes": false
+    }
+  },
+  "selected": null,
+  "rule": "mean relative log-MSE improvement >=5%; >=2 seeds improve and have positive Spearman"
+}

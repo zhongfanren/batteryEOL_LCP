@@ -1,0 +1,34 @@
+{
+  "method": "disagreement",
+  "epochs": {
+    "42": 26,
+    "2021": 38,
+    "2024": 45
+  },
+  "rank": 32,
+  "point": {
+    "rmse": 219.5625170108986,
+    "mae": 124.31095447725268,
+    "mape": 0.12115494877741316,
+    "r2": 0.6773271422820573
+  },
+  "historical_test_previously_viewed": true,
+  "split": {
+    "coverage": 0.9090909090909091,
+    "mean_width": 498.92448361760177,
+    "median_width": 498.9244836176019,
+    "mean_interval_score": 1217.417432058872,
+    "miss_lower": 0,
+    "miss_upper": 3,
+    "q": 249.4622418088009
+  },
+  "normalized": {
+    "coverage": 0.8787878787878788,
+    "mean_width": 612.7741286484305,
+    "median_width": 605.2722948269395,
+    "mean_interval_score": 1030.7709659238592,
+    "miss_lower": 1,
+    "miss_upper": 3,
+    "q": 2.662632073681295
+  }
+}

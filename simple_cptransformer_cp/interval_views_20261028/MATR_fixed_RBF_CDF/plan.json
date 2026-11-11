@@ -1,0 +1,17 @@
+{
+  "purpose": "post-hoc diagnostic of archived fixed-RBF CDFs, not new method selection",
+  "seeds": [
+    2024,
+    42,
+    2021
+  ],
+  "plots": "all original 33 test cells, seed2024; other seeds summarized",
+  "bandwidth_sensitivity": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "selection_by_test": false,
+  "reconstruction": "linear inversion of 33 saved weighted log-error means plus uniform log-error mean; require full rank and reproduce saved quantiles",
+  "scope": "fixed RBF only; SSL localizer states/weights were not archived and are not invented"
+}

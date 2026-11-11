@@ -1,0 +1,621 @@
+{
+  "status": "candidate, not a frozen experimental split",
+  "selection_rule": "T=100 eligible Tongji cells in four repeated filename-defined conditions; selected from counts and filenames only",
+  "data_root": "C:/BatteryLife_v4",
+  "counts_file": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\runs_single_gpu\\20261021_114809_194841\\cell_prefix_counts.json",
+  "counts_sha256": "400f0e72a75f5ef187c0c221384d29ef51848357770b57da0fbd1c46572664ad",
+  "aging_condition_file": "D:\\Battery-LCP\\third_party\\BatteryLife\\name2agingConditionID.json",
+  "aging_condition_sha256": "e7a2eba8fdd45d425ba470ddf075d18ca83fcffae4905916b92e52ee59119133",
+  "n_cells": 77,
+  "groups": [
+    {
+      "aging_condition_id": 126,
+      "prefix": "Tongji1_CY25-05_1",
+      "n_cells": 17,
+      "original_split_counts": {
+        "test": 3,
+        "val": 4,
+        "train": 10
+      },
+      "mixed_pilot_phase_counts": {
+        "dev": 2,
+        "calibration": 5,
+        "train": 9,
+        "test": 1
+      }
+    },
+    {
+      "aging_condition_id": 129,
+      "prefix": "Tongji1_CY45-05_1",
+      "n_cells": 26,
+      "original_split_counts": {
+        "train": 20,
+        "val": 4,
+        "test": 2
+      },
+      "mixed_pilot_phase_counts": {
+        "test": 6,
+        "calibration": 6,
+        "train": 12,
+        "dev": 2
+      }
+    },
+    {
+      "aging_condition_id": 130,
+      "prefix": "Tongji2_CY25-05_1",
+      "n_cells": 10,
+      "original_split_counts": {
+        "val": 3,
+        "train": 5,
+        "test": 2
+      },
+      "mixed_pilot_phase_counts": {
+        "calibration": 4,
+        "test": 1,
+        "train": 5
+      }
+    },
+    {
+      "aging_condition_id": 132,
+      "prefix": "Tongji2_CY45-05_1",
+      "n_cells": 24,
+      "original_split_counts": {
+        "val": 6,
+        "train": 13,
+        "test": 5
+      },
+      "mixed_pilot_phase_counts": {
+        "test": 3,
+        "train": 12,
+        "dev": 3,
+        "calibration": 6
+      }
+    }
+  ],
+  "cells": [
+    {
+      "cell_file": "Tongji1_CY25-05_1--1.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "dev"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--10.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "dev"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--11.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--12.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--13.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--14.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--15.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--16.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--17.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--18.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--19.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--2.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--3.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--4.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--5.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--6.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY25-05_1--7.pkl",
+      "aging_condition_id": 126,
+      "filename_protocol_prefix": "Tongji1_CY25-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--1.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--10.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--11.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--12.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--13.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--14.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--15.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--16.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--17.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--18.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--19.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--2.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--20.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--21.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--22.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--23.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--24.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "dev"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--25.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--26.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--27.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "dev"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--28.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--5.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--6.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--7.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--8.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji1_CY45-05_1--9.pkl",
+      "aging_condition_id": 129,
+      "filename_protocol_prefix": "Tongji1_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--10.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--12.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--13.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--15.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--16.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--17.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--2.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--5.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--8.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY25-05_1--9.pkl",
+      "aging_condition_id": 130,
+      "filename_protocol_prefix": "Tongji2_CY25-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--1.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--10.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--11.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "dev"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--12.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--13.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--14.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--15.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--16.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "test"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--17.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--18.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--19.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--2.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--20.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--21.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--22.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--23.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--24.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--25.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "dev"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--26.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--27.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "dev"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--28.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "test",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--7.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "train"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--8.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "val",
+      "mixed_pilot_phase": "calibration"
+    },
+    {
+      "cell_file": "Tongji2_CY45-05_1--9.pkl",
+      "aging_condition_id": 132,
+      "filename_protocol_prefix": "Tongji2_CY45-05_1",
+      "original_split": "train",
+      "mixed_pilot_phase": "calibration"
+    }
+  ],
+  "caveats": [
+    "These are upstream aging-condition IDs after relabeling; inspect physical protocol metadata before claiming exact equivalence.",
+    "Current mixed pilot predictor trained on some selected cells; its held-out calibration/test subset contains only 21/11 selected cells.",
+    "No model training/calibration/test partition is proposed here."
+  ]
+}

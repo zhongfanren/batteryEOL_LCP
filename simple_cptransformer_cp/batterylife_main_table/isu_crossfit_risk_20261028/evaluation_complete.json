@@ -1,0 +1,17 @@
+{
+  "completed_at": "2026-10-28T19:16:00+08:00",
+  "rows": 7236,
+  "frozen_sources_unchanged": true,
+  "risk_fit_only_train_oof_and_dev": true,
+  "oof_not_used_as_final_calibration": true,
+  "sources": [
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_2024\\CPMLP\\best_model.pt",
+      "sha256": "6a334e76742aeb0624d1b9217d93c4400ddd12606377ce8013cc3a1007a28279"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_2024\\CPLSTM\\best_model.pt",
+      "sha256": "e9c8f30c97de5d2b690332037150fd9fe50b3f1b2c867f997510a7469aef8e14"
+    }
+  ]
+}

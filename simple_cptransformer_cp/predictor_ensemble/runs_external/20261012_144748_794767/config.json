@@ -1,0 +1,32 @@
+{
+  "task": "T=100 full MATR-train point predictor; exploratory official validation/test",
+  "seeds": [
+    42,
+    2021,
+    2024,
+    7,
+    1024
+  ],
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "train_n": 102,
+  "validation_n": 34,
+  "test_n": 33,
+  "epoch_selection_split_seed": 42024,
+  "variance_feature": "log10 variance of Qdlin cycle-100 minus cycle-10",
+  "variance_target": "log EOL",
+  "variance_prediction_clipping": "training EOL min/max",
+  "blend": "0.5 * CPTransformer 5-seed mean + 0.5 * variance model",
+  "script_sha256": "9244b955af165f8b2bdf0c5600947a24783e32295a6c0ca7bfd4a0fec4f526f0",
+  "device": "cuda",
+  "test_status": "previously viewed; exploratory only"
+}

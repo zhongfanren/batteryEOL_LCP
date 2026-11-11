@@ -1,0 +1,199 @@
+{
+  "created_at": "2026-10-28T11:41:38+08:00",
+  "runner_sha256": "27fae7181310ecf2c2a1e0b066c6b77fc1760978f03d78435e6db8e8fbd9a45f",
+  "training_runner_sha256": "8b03c3f498c376d064630f6a18533189f83d8fe7960d409b0d4982c89bbf8484",
+  "base_manifest_sha256": "3e75f9bfbc4e85ff9af6e55450d205f5e4a788a60ef25204baed97b944537bd8",
+  "hypotheses": [
+    "H1: apparent scale-CP improvements persist across predictor initialization and cell partitions",
+    "H2: early-curve representations add information beyond predicted-lifetime scale, including local calibration of normalized residuals"
+  ],
+  "jobs": [
+    {
+      "key": "s20261026_r2021_CPMLP",
+      "split_seed": 20261026,
+      "train_seed": 2021,
+      "model": "CPMLP",
+      "reuse_predictor": true,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curated_isu_pilot",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261026.json"
+    },
+    {
+      "key": "s20261026_r2021_CPLSTM",
+      "split_seed": 20261026,
+      "train_seed": 2021,
+      "model": "CPLSTM",
+      "reuse_predictor": true,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curated_isu_pilot",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261026.json"
+    },
+    {
+      "key": "s20261026_r42_CPMLP",
+      "split_seed": 20261026,
+      "train_seed": 42,
+      "model": "CPMLP",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_42",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261026.json"
+    },
+    {
+      "key": "s20261026_r42_CPLSTM",
+      "split_seed": 20261026,
+      "train_seed": 42,
+      "model": "CPLSTM",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_42",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261026.json"
+    },
+    {
+      "key": "s20261026_r2024_CPMLP",
+      "split_seed": 20261026,
+      "train_seed": 2024,
+      "model": "CPMLP",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_2024",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261026.json"
+    },
+    {
+      "key": "s20261026_r2024_CPLSTM",
+      "split_seed": 20261026,
+      "train_seed": 2024,
+      "model": "CPLSTM",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_2024",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261026.json"
+    },
+    {
+      "key": "s20261028_r2021_CPMLP",
+      "split_seed": 20261028,
+      "train_seed": 2021,
+      "model": "CPMLP",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261028\\seed_2021",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261028.json"
+    },
+    {
+      "key": "s20261028_r2021_CPLSTM",
+      "split_seed": 20261028,
+      "train_seed": 2021,
+      "model": "CPLSTM",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261028\\seed_2021",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261028.json"
+    },
+    {
+      "key": "s20261028_r42_CPMLP",
+      "split_seed": 20261028,
+      "train_seed": 42,
+      "model": "CPMLP",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261028\\seed_42",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261028.json"
+    },
+    {
+      "key": "s20261028_r42_CPLSTM",
+      "split_seed": 20261028,
+      "train_seed": 42,
+      "model": "CPLSTM",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261028\\seed_42",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261028.json"
+    },
+    {
+      "key": "s20261028_r2024_CPMLP",
+      "split_seed": 20261028,
+      "train_seed": 2024,
+      "model": "CPMLP",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261028\\seed_2024",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261028.json"
+    },
+    {
+      "key": "s20261028_r2024_CPLSTM",
+      "split_seed": 20261028,
+      "train_seed": 2024,
+      "model": "CPLSTM",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261028\\seed_2024",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261028.json"
+    },
+    {
+      "key": "s20261029_r2021_CPMLP",
+      "split_seed": 20261029,
+      "train_seed": 2021,
+      "model": "CPMLP",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261029\\seed_2021",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261029.json"
+    },
+    {
+      "key": "s20261029_r2021_CPLSTM",
+      "split_seed": 20261029,
+      "train_seed": 2021,
+      "model": "CPLSTM",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261029\\seed_2021",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261029.json"
+    },
+    {
+      "key": "s20261029_r42_CPMLP",
+      "split_seed": 20261029,
+      "train_seed": 42,
+      "model": "CPMLP",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261029\\seed_42",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261029.json"
+    },
+    {
+      "key": "s20261029_r42_CPLSTM",
+      "split_seed": 20261029,
+      "train_seed": 42,
+      "model": "CPLSTM",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261029\\seed_42",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261029.json"
+    },
+    {
+      "key": "s20261029_r2024_CPMLP",
+      "split_seed": 20261029,
+      "train_seed": 2024,
+      "model": "CPMLP",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261029\\seed_2024",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261029.json"
+    },
+    {
+      "key": "s20261029_r2024_CPLSTM",
+      "split_seed": 20261029,
+      "train_seed": 2024,
+      "model": "CPLSTM",
+      "reuse_predictor": false,
+      "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261029\\seed_2024",
+      "candidate": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\candidate_20261029.json"
+    }
+  ],
+  "methods": [
+    "split_cp",
+    "relative_cp",
+    "prediction_scale_cp",
+    "protocol_scale_cp",
+    "curve_scale_cp",
+    "normalized_rlcp_prediction_h1.5",
+    "normalized_rlcp_curve_h1.5",
+    "normalized_rlcp_prediction_h3",
+    "normalized_rlcp_curve_h3"
+  ],
+  "alpha": 0.1,
+  "pca_components": 3,
+  "pca_fit": "train embeddings only; whitened; no cal/test fitting",
+  "scale_fit": "Gaussian regression on 20 development absolute residuals; h=1.5, positive floor",
+  "rlcp": "Hore-Barber Gaussian random centers; h=1.5 and 3 fixed sensitivity settings; report all, no test-based choice",
+  "local_scores": "absolute residual divided by fixed prediction-only development scale",
+  "holdout_resplits": 200,
+  "holdout_resplit_seed": 20261028,
+  "resplit_scope": "shuffle only the 122 cal+test cells; predictor, dev, scales, PCA and risk cutoffs remain frozen",
+  "primary_readout": "paired width and interval-score differences; coverage and infinite-interval counts; normalized residual risk signal; all jobs reported",
+  "decision_rule": "Treat width/score improvements as useful only alongside coverage. Report signs across all completed split/seed pairs; do not rank/select using test. Consistent small effects remain exploratory, not a significance claim.",
+  "max_queue_seconds": 10800,
+  "max_job_seconds": 1800,
+  "exploratory": "Historical test exposure, overlapping repetitions, and small samples preclude a pristine confirmatory claim. Repetitions are not independent datasets."
+}

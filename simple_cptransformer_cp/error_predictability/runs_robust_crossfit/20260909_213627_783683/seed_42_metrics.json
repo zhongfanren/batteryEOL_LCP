@@ -1,0 +1,161 @@
+{
+  "point": {
+    "rmse": 222.12232963497524,
+    "mae": 172.97246308071604,
+    "mape": 0.2701377832271036,
+    "r2": 0.4471456166149357
+  },
+  "risk": {
+    "constant": {
+      "log_mse": 1.1108529024063807,
+      "improvement": 0.0,
+      "spearman": 0.056105742374052636,
+      "scale_mae": 113.06482298054557
+    },
+    "prediction_only": {
+      "log_mse": 1.138473294525346,
+      "improvement": -0.024864131028629277,
+      "spearman": 0.2181101605306162,
+      "scale_mae": 114.60593395523435
+    },
+    "simple": {
+      "log_mse": 1.0827507782712908,
+      "improvement": 0.025297790620354643,
+      "spearman": 0.26196628800515687,
+      "scale_mae": 111.44467076424611
+    },
+    "multiscale": {
+      "log_mse": 1.2345803616268405,
+      "improvement": -0.11138059679408108,
+      "spearman": 0.20280914442100978,
+      "scale_mae": 116.69665442300267
+    }
+  },
+  "selected_epochs": [
+    {
+      "outer_fold": 0,
+      "role": "inner_0",
+      "epoch": 2
+    },
+    {
+      "outer_fold": 0,
+      "role": "inner_1",
+      "epoch": 29
+    },
+    {
+      "outer_fold": 0,
+      "role": "inner_2",
+      "epoch": 1
+    },
+    {
+      "outer_fold": 0,
+      "role": "inner_3",
+      "epoch": 25
+    },
+    {
+      "outer_fold": 0,
+      "role": "outer",
+      "epoch": 31
+    },
+    {
+      "outer_fold": 1,
+      "role": "inner_0",
+      "epoch": 17
+    },
+    {
+      "outer_fold": 1,
+      "role": "inner_1",
+      "epoch": 41
+    },
+    {
+      "outer_fold": 1,
+      "role": "inner_2",
+      "epoch": 20
+    },
+    {
+      "outer_fold": 1,
+      "role": "inner_3",
+      "epoch": 48
+    },
+    {
+      "outer_fold": 1,
+      "role": "outer",
+      "epoch": 19
+    },
+    {
+      "outer_fold": 2,
+      "role": "inner_0",
+      "epoch": 19
+    },
+    {
+      "outer_fold": 2,
+      "role": "inner_1",
+      "epoch": 8
+    },
+    {
+      "outer_fold": 2,
+      "role": "inner_2",
+      "epoch": 56
+    },
+    {
+      "outer_fold": 2,
+      "role": "inner_3",
+      "epoch": 31
+    },
+    {
+      "outer_fold": 2,
+      "role": "outer",
+      "epoch": 15
+    },
+    {
+      "outer_fold": 3,
+      "role": "inner_0",
+      "epoch": 3
+    },
+    {
+      "outer_fold": 3,
+      "role": "inner_1",
+      "epoch": 27
+    },
+    {
+      "outer_fold": 3,
+      "role": "inner_2",
+      "epoch": 1
+    },
+    {
+      "outer_fold": 3,
+      "role": "inner_3",
+      "epoch": 7
+    },
+    {
+      "outer_fold": 3,
+      "role": "outer",
+      "epoch": 3
+    },
+    {
+      "outer_fold": 4,
+      "role": "inner_0",
+      "epoch": 5
+    },
+    {
+      "outer_fold": 4,
+      "role": "inner_1",
+      "epoch": 26
+    },
+    {
+      "outer_fold": 4,
+      "role": "inner_2",
+      "epoch": 8
+    },
+    {
+      "outer_fold": 4,
+      "role": "inner_3",
+      "epoch": 23
+    },
+    {
+      "outer_fold": 4,
+      "role": "outer",
+      "epoch": 24
+    }
+  ]
+}

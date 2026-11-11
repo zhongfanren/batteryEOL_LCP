@@ -1,0 +1,12 @@
+{
+  "sources_unchanged": true,
+  "source_sha256": {
+    "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_crossfit_risk_20261028\\original_intervals.csv": "31a432d061fc6b998f355c0256e4722614bc312c0e66953b194c2340efae982b",
+    "D:\\Battery-LCP\\simple_cptransformer_cp\\learnable_localizers\\runs_transfer\\20260926_213949_940282\\seed_2024\\evaluation.csv": "7c04b658af809f1b94829588578fb0f0dbb2d058ae5ccae9bfc01ec0168f699c",
+    "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\frozen_split_cp\\20261021_193212_072306\\test_intervals.csv": "7d4221fc406de0dda10038c023b4b6a738c0c8b8f41edfb59569e9bb753e7f66"
+  },
+  "ISU_test_cells": 61,
+  "MATR_test_cells": 33,
+  "intervals_recomputed": false,
+  "selection": "All original test cells, preset models/seeds; no test-performance selection"
+}

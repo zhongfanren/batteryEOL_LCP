@@ -1,0 +1,179 @@
+{
+  "source_run": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380",
+  "files": {
+    "DLinear": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\DLinear\\development_model.pt",
+        "sha256": "21885226701cb896daef3de97530381f707e802ccb4b7aacf4aaee35c6917888"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\DLinear\\val_predictions.csv",
+        "sha256": "a20b754679d8b1fb80990f47e8c575c3616c0aa9609c5864e74d573836a5a55d"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\DLinear\\test_predictions.csv",
+        "sha256": "dfb643e82d6f38c850cb3d508dd22bef9d1cf473ab1ee334422533441249d0b5"
+      }
+    },
+    "MLP": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\MLP\\development_model.pt",
+        "sha256": "accfb462294a999e1e1175bf9b2d7c2d5d5391117ad1195dba5aa21cc8b3fdb3"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\MLP\\val_predictions.csv",
+        "sha256": "2173b8811f1769759d421d436561674869e4187c709c8b05c00f00957ac4620e"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\MLP\\test_predictions.csv",
+        "sha256": "b62f3e96dcd7547aac01cf83365a81e24b8f21d6e133e9ab517bcc54ed5abfc6"
+      }
+    },
+    "CPMLP": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPMLP\\development_model.pt",
+        "sha256": "eee6f33f18ce47305a8a84ee83aef5650072b6d450b8828c579a8782c0d1033d"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPMLP\\val_predictions.csv",
+        "sha256": "98276c30c8ef1455879084e1054f036870e3e7ef7d1d2ebf37c5ca697c8d0111"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPMLP\\test_predictions.csv",
+        "sha256": "d12fc617bc42080e2eba168d4ead8948218ecff122008de384625e515b75e815"
+      }
+    },
+    "PatchTST": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\PatchTST\\development_model.pt",
+        "sha256": "9f7587fc76a262c92fd499a3c7ce8bf4f3671fdd3459fa0fedcde3cf16f82523"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\PatchTST\\val_predictions.csv",
+        "sha256": "3d7d00295fb346816dae56c4861127081aa6b7b32dba8b233cd9e0d95d91c919"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\PatchTST\\test_predictions.csv",
+        "sha256": "7a33ec003e27fe2ac1f89ec12d3ad28bd90828b85c22e80f8f84785996e46997"
+      }
+    },
+    "iTransformer": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\iTransformer\\development_model.pt",
+        "sha256": "47ad8de771bcd01b310677b17beb21193892974f5518446a74f78d2776fa49af"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\iTransformer\\val_predictions.csv",
+        "sha256": "4d7a7b30e239c5109d66cb6cd59210304060a1e4b260042c99d64d2df797405c"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\iTransformer\\test_predictions.csv",
+        "sha256": "d122930da4d4518d5dc67ff1e2e3e1ca1f708f7762084b6db5b68aa3645e9999"
+      }
+    },
+    "CPTransformer": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPTransformer\\development_model.pt",
+        "sha256": "3f84289c8d67864aab5d2ae57ff39841ee751020500236646f6d0e990e4a93f8"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPTransformer\\val_predictions.csv",
+        "sha256": "db4f171d31002248e58bfc8d9cf88df28e5870027dbb67470e032176b8b5ef0f"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPTransformer\\test_predictions.csv",
+        "sha256": "977dc43f706d767bd4d208ee41c1a73fee8eab71d09188db3dd438ce906f48c2"
+      }
+    },
+    "CNN": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CNN\\development_model.pt",
+        "sha256": "2406a7380c052c2ec31a0701a4d3a2cac9701ed9da85e714fc592aaedeb8feb1"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CNN\\val_predictions.csv",
+        "sha256": "c07ad0f934b24c9b8c24a30394843ce1f8dd9fe968ef3b5047b116c8f3867d3a"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CNN\\test_predictions.csv",
+        "sha256": "3c4a42cd12a36faac3fe5339ec89596b4540b985c8477b05fc50eb4122c7f609"
+      }
+    },
+    "CPGRU": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPGRU\\development_model.pt",
+        "sha256": "3c1541ff4d55fbee290f39d653c68b4201f5443dd80dc4678f14475e490d94cc"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPGRU\\val_predictions.csv",
+        "sha256": "cd89f9b8b85a451915daf51d749b42e842a33199e3a481659a7434c82c40eff5"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPGRU\\test_predictions.csv",
+        "sha256": "eb794a28028d4c16e6c08c816b00ff320e7ff3d9b4cfa9de6b96353afa2afb0d"
+      }
+    },
+    "CPBiGRU": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPBiGRU\\development_model.pt",
+        "sha256": "2e82d641f9a35af201d6c4f9f6b499db4d549249a796df87446ed010e57867a8"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPBiGRU\\val_predictions.csv",
+        "sha256": "905bd79e2eac4fda0253c585b3441e6e7e07f4fee001d3e4d28058b6e7f46247"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPBiGRU\\test_predictions.csv",
+        "sha256": "44fd59cb7a11e756601f93274de448412d6ca6c3b0b311e3155411f87262aac9"
+      }
+    },
+    "CPLSTM": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPLSTM\\development_model.pt",
+        "sha256": "3c83a752f60c96cccdc7b73f1dbe107f9a1a1ff1661c89498519d5d173b83b03"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPLSTM\\val_predictions.csv",
+        "sha256": "8d7fbac794ba9a2dbc18c28c2079eed6edc0509344e37b52f010a42ff48247fd"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPLSTM\\test_predictions.csv",
+        "sha256": "7189cfea0c020a6405d8c3c05d7fa87ba3fb6eb9cab93b88a7a61a255dae91ca"
+      }
+    },
+    "CPBiLSTM": {
+      "checkpoint": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPBiLSTM\\development_model.pt",
+        "sha256": "adce3900b9e5dc57248c2f56e58270568e6b416591991b02bc791db936077a10"
+      },
+      "calibration": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPBiLSTM\\val_predictions.csv",
+        "sha256": "c15dcada2eab42a189c25ae5a25dbb2a23b527cdf5174235abedff8cf8e99d37"
+      },
+      "test": {
+        "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380\\CPBiLSTM\\test_predictions.csv",
+        "sha256": "8cefc36d094f834f5d2259aadf20ba0f98afea4bacce6be9914a1d3b3b8c68a3"
+      }
+    }
+  },
+  "ensembles": {
+    "mean_all_11": [
+      "DLinear",
+      "MLP",
+      "CPMLP",
+      "PatchTST",
+      "iTransformer",
+      "CPTransformer",
+      "CNN",
+      "CPGRU",
+      "CPBiGRU",
+      "CPLSTM",
+      "CPBiLSTM"
+    ],
+    "mean_paper_cp_top3": [
+      "CPMLP",
+      "CPTransformer",
+      "CPGRU"
+    ]
+  }
+}

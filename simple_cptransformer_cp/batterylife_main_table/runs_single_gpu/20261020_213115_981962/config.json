@@ -1,0 +1,15 @@
+{
+  "model": "DLinear",
+  "seed": 2021,
+  "data_root": "C:\\BatteryLife_v4",
+  "subset_present": true,
+  "epochs": 20,
+  "device": "cuda",
+  "train_cells": 151,
+  "validation_cells": 49,
+  "train_prefixes": 15100,
+  "validation_prefixes": 4900,
+  "data_loader_sha256": "260b1f52214316935a91fe1b9b89dddb6ffb376b4a1bb984ceb9fc5bbb3bdf0e",
+  "model_sha256": "e283f58807e77cb3c7660daa23eff947a078b9a8cb8e92adc249ee18b774d4ff",
+  "adapter": "3 unused imports omitted; single GPU, batch 32, gradient accumulation 4, 0 workers"
+}

@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-11-04T21:30:32+08:00",
+  "script_sha256": "c65bb51fcbef5d01c05d9d1cbcb9bc86229375c0a2c7d80a5fc6538e7b7ef151",
+  "dependency_sha256": "41aa211851d168f7ae4d8333cdac73d723c33e2fc3bbe37795edf74f4d1274b4",
+  "primary": "s20261026_r2024_CPMLP",
+  "hypotheses": [
+    "Htail: fixed weaker-regularized tail model generalizes on train-only OOF diagnostics beyond lifetime-only",
+    "Hlocal: same-score 1D gap RLCP adds value beyond global and life RLCP"
+  ],
+  "score_scales": [
+    "1",
+    "max(1,prediction)",
+    "max(1,prediction)+gap6"
+  ],
+  "methods": [
+    "absolute__global",
+    "absolute__life",
+    "absolute__gap",
+    "relative__global",
+    "relative__life",
+    "relative__gap",
+    "gap6__global",
+    "gap6__life",
+    "gap6__gap"
+  ],
+  "locality": "train-standardized log prediction or log1p(gap6/p); 1D Gaussian RLCP; h=6 fixed",
+  "risk_variants": [
+    "constant",
+    "life_a01",
+    "pair_a05_old",
+    "pair_a01_primary",
+    "pair_a0_sensitivity"
+  ],
+  "risk_gate": "Primary pair_a01: pooled CV pinball >=2% better than BOTH constant and life_a01; >=3/5 fold wins against EACH; >=4/5 nonconstant folds; full predicted std>.01. No downstream model selection in this batch.",
+  "risk_cv": "leave original auxiliary outer-fold out; scaler refit per risk fold; fixed OOF overlap precludes end-to-end nested validation",
+  "repetitions": 200,
+  "resplit_seed": 20261028,
+  "random_center_seed": 20261028,
+  "readout": "All same-score pairs, coverage, width, interval score, predefined gap/life groups, infinity and per-cell CDFs; never pick a winner using test",
+  "point_training": false,
+  "dataset_change": false,
+  "exploratory": true,
+  "plot_selection": "All primary original test61, all three scores; no error-based cell selection"
+}

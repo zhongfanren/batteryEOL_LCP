@@ -1,0 +1,19 @@
+{
+  "data_root": "D:\\BatteryLife_Processed",
+  "seed": 2024,
+  "alpha": 0.1,
+  "lower_tail_fraction": 0.5,
+  "epochs": 100,
+  "patience": 10,
+  "batch_size": 16,
+  "lr": 5e-05,
+  "pca_components": 16,
+  "min_ess": 10.0,
+  "device": "cuda",
+  "d_model": 128,
+  "d_ff": 256,
+  "e_layers": 6,
+  "d_layers": 4,
+  "n_heads": 4,
+  "T": 100
+}

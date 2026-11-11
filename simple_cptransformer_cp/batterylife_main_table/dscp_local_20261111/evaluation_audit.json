@@ -1,0 +1,7 @@
+{
+  "baseline_replay": true,
+  "interval_rows": 3843,
+  "all_seeds_reported": true,
+  "all_infinities_retained": true,
+  "no_cal_test_training": true
+}

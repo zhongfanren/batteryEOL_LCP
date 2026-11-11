@@ -1,0 +1,144 @@
+{
+  "created_at": "2026-11-11T16:39:36+08:00",
+  "runner_sha256": "e57ac168d2218cd01713af57869004240720b8ab2d1682112311deb8a54963b9",
+  "dependencies": [
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\run_dscp_local.py",
+      "sha256": "e57ac168d2218cd01713af57869004240720b8ab2d1682112311deb8a54963b9"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\run_isu_disagreement_cp.py",
+      "sha256": "41aa211851d168f7ae4d8333cdac73d723c33e2fc3bbe37795edf74f4d1274b4"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\check_curve_signal.py",
+      "sha256": "1445e7249b4742708121767e0456fcc2f63dc04333d952de53c8f53cd9970eb8"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_crossfit_risk_20261028\\oof_predictions.csv",
+      "sha256": "224c7724db4032031579a93ea0dd9f910fb5f2d33084ee30387ad8c9b97b99c3"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_crossfit_risk_20261028\\train_bank.npz",
+      "sha256": "4425e6f54edd32eb76cefe372b995689fe1c169299b1df2777c5026cc5430b00"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_crossfit_risk_20261028\\dataset_manifest.json",
+      "sha256": "aeb517ee9e5201402fd5a15d372f637f9e32d45972cc1765a04baf4227cf728a"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\analysis\\s20261026_r2021_CPMLP\\features.npz",
+      "sha256": "4f469afcb49aac5a84034b394e18be97b38a143b450ace38db574a08def5094e"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\analysis\\s20261026_r2021_CPLSTM\\features.npz",
+      "sha256": "98e3cf7c523ac44bcba6334896f92470d226403337a3ec5cdd0a4edd1b579bf2"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\analysis\\s20261026_r42_CPMLP\\features.npz",
+      "sha256": "d4bf0c4c67d80dde0f40b894fc3bffaaf63774289b506aa228e15b013b604116"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\analysis\\s20261026_r42_CPLSTM\\features.npz",
+      "sha256": "85251fe8c9c6d113e63e70790867345d82befdca50bc1eeac81af0a10b5a19d9"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\analysis\\s20261026_r2024_CPMLP\\features.npz",
+      "sha256": "6e0c3decddcbb2aeaf8905ad2fc8fcfc26764efc9b9a521f24041eed4479553c"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\analysis\\s20261026_r2024_CPLSTM\\features.npz",
+      "sha256": "20eb15f340863071bf2b8a766d9cf11d5f735b761e1118abf0fa3ce675812ca8"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_2024\\CPMLP\\best_model.pt",
+      "sha256": "6a334e76742aeb0624d1b9217d93c4400ddd12606377ce8013cc3a1007a28279"
+    },
+    {
+      "path": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261026\\seed_2024\\CPMLP\\frozen_predictor.json",
+      "sha256": "fda05dd6fe8effad8802c5c2f804cb833dd62969b094d349ada304c7bccceaaa"
+    }
+  ],
+  "paper": "https://arxiv.org/abs/2610.02357; sections2.3/B.3",
+  "hypotheses": [
+    "Hsequence: residual-quantile-supervised LSTM hidden states improve local calibration over global/hand/random states",
+    "Hscore: normalized absolute residual training improves over raw signed residual training on this battery task"
+  ],
+  "predictor": "frozen original CPMLP split20261026 seed2024; no point-model refit",
+  "jobs": [
+    {
+      "key": "raw_signed_s2024",
+      "mode": "raw_signed",
+      "seed": 2024
+    },
+    {
+      "key": "raw_signed_s42",
+      "mode": "raw_signed",
+      "seed": 42
+    },
+    {
+      "key": "raw_signed_s2021",
+      "mode": "raw_signed",
+      "seed": 2021
+    },
+    {
+      "key": "abs_relative_s2024",
+      "mode": "abs_relative",
+      "seed": 2024
+    },
+    {
+      "key": "abs_relative_s42",
+      "mode": "abs_relative",
+      "seed": 42
+    },
+    {
+      "key": "abs_relative_s2021",
+      "mode": "abs_relative",
+      "seed": 2021
+    }
+  ],
+  "architecture": "100 cycles x 900 values -> linear900x32 + ReLU -> 1-layer LSTM32 -> three hidden32 quantile heads; embedding is LSTM state, not quantile outputs",
+  "levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "optimizer": "AdamW lr.001 weight_decay.01, batch16, clip_grad_norm1",
+  "epochs": 50,
+  "patience": 3,
+  "budget_seconds": 1800,
+  "training": "train97 OOF residual supervision; select epoch only with original dev20 residuals of frozen main predictor",
+  "input_normalization": "per-position mean/std over train97 and100 cycles only, clip[-5,5]",
+  "target_normalization": "divide by one train-only residual std for numerical stability; does not change residual definition",
+  "localization": "negative squared hidden-state distance / train-only median pairwise squared distance, softmax; no temperature search",
+  "paper_adaptations": [
+    "early cell curves replace time-series covariate/residual history; no unknown test-cell EOL residuals",
+    "single predeclared LSTM configuration, not full paper architecture/hyperparameter search",
+    "OOF97/dev20/cal61/test61 replace paper time splits",
+    "train-only median temperature rule instead of validation search"
+  ],
+  "normalized_adaptation": "abs_relative target and symmetric normalized-score CDF; separate from paper raw-signed mechanism",
+  "methods": [
+    "split_abs",
+    "split_relative",
+    "split_gap6",
+    "global_signed_empirical",
+    "global_signed_finite",
+    "global_relative_empirical",
+    "hand_relative_empirical",
+    "DSCP_raw_signed",
+    "random_raw_signed",
+    "DSCP_raw_absolute",
+    "RLCP_raw_absolute",
+    "DSCP_relative",
+    "random_relative",
+    "RLCP_relative"
+  ],
+  "rlcp_adaptation": "Gaussian randomized center, hidden state scaled by sqrt(train median squared distance), fixed h3, test+infinity retained; distinct from paper softmax",
+  "readout": "all three encoder seeds, originaltest61 plus200 fixed-pool resplits, same-score global/local controls, coverage/width/intervalscore/ESS/infinity and gap groups; no test-based choice",
+  "theory": "Paper softmax results exploratory, no finite-sample guarantee asserted. RLCP rows use the separate Gaussian construction under exchangeability; historical label exposure remains.",
+  "random_center_seed": 20261111,
+  "resplit_seed": 20261028,
+  "resplits": 200,
+  "plot": "all original test61 for fixed encoder seed2024 in both modes; raw signed CDF uses .05/.95, relative uses .9"
+}

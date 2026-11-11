@@ -1,0 +1,49 @@
+{
+  "experiment": "D: development-only six-weight learnable grouped RBF",
+  "T": 100,
+  "dataset": "MATR official train only",
+  "outer_folds": 10,
+  "outer_split_seed": 2024,
+  "calibration_per_fold": 34,
+  "seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "alpha": 0.1,
+  "methods": [
+    "split",
+    "fixed_rbf_pca",
+    "fixed_group_rbf",
+    "learned_group_rbf"
+  ],
+  "group_names": [
+    "voltage_trend",
+    "current_trend",
+    "capacity_trend",
+    "channel_std",
+    "cycle_difference_std",
+    "slope"
+  ],
+  "metric_parameter_count": 6,
+  "metric_l2_toward_equal_weights": 0.0,
+  "selection_loss": "held-out CRPS plus ESS penalty; excludes training L2",
+  "metric_loss": "CRPS of leave-one-out log absolute residual distribution",
+  "min_ess": 10.0,
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "device": "cuda",
+  "data_root": "D:\\BatteryLife_Processed",
+  "code_sha256": "6eebb5179e600f78b28f4d7177faf88184853fdc214dd20a839898dcfc731c13",
+  "data_usage": "MATR validation and test are not loaded",
+  "weighted_interval_status": "empirical basic-LCP diagnostic; no new local guarantee claimed"
+}

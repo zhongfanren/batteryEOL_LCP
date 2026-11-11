@@ -1,0 +1,27 @@
+{
+  "data_root": "D:\\BatteryLife_Processed",
+  "out": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_matr_benchmark\\runs\\20261014_222508_198380",
+  "models": [
+    "DLinear",
+    "MLP",
+    "CPMLP",
+    "PatchTST",
+    "iTransformer",
+    "CPTransformer",
+    "CNN",
+    "CPGRU",
+    "CPBiGRU",
+    "CPLSTM",
+    "CPBiLSTM"
+  ],
+  "seed": 2024,
+  "split_seed": 2024,
+  "epochs": 60,
+  "patience": 7,
+  "batch_size": 16,
+  "device": "cuda",
+  "evaluate_official": true,
+  "T": 100,
+  "selection_set": "12 cells held from official MATR train",
+  "official_status": "exploratory; previously viewed"
+}

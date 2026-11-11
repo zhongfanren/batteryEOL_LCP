@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-28T17:33:21+08:00",
+  "code_sha256": "fee9a3092c7ac529357fa97e907f028f16b04b86eb3a32ef0d5793dc00905c36",
+  "parent_plan_sha256": "e1a48b07d074967ddfcb08ad1fd40a6df049e38c9f44823cae408ee54d2d9fc4",
+  "reason": "post-hoc follow-up: combined model disagreement was the clearest exploratory signal",
+  "components": [
+    "seed_spread",
+    "architecture_gap"
+  ],
+  "risk_modes": [
+    "dev20_to_pool",
+    "group_cv20",
+    "group_cv_all"
+  ],
+  "absolute_error_sensitivity": "same Ridge alpha10 and lifetime basis; target log1p(abs error in cycles)",
+  "selection": "report both components, both models and all fits; no tuned parameter or fresh CP claim"
+}

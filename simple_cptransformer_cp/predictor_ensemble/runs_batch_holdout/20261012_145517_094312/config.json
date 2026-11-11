@@ -1,0 +1,23 @@
+{
+  "task": "exploratory leave-one-MATR-batch-out T=100 point prediction",
+  "seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "feature": "Qdlin cycle 100 - cycle 10 log variance",
+  "script_sha256": "3a5bfeaebdbaae4e734880f17564efe0ad355e7c3c4169179bcc4a6fc357b868",
+  "official_validation_or_test_used": false,
+  "device": "cuda"
+}

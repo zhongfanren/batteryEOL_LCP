@@ -1,0 +1,30 @@
+{
+  "predictor": {
+    "d_model": 128,
+    "d_ff": 256,
+    "e_layers": 6,
+    "d_layers": 4,
+    "n_heads": 4,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "epochs": 100,
+    "patience": 10
+  },
+  "split_seed": 2024,
+  "model_seeds": [
+    42,
+    2021,
+    2024
+  ],
+  "device": "cuda",
+  "data_root": "D:\\BatteryLife_Processed",
+  "code_sha256": "3417252e993d3824d89470e8b39116d69ee410a4decacf97583f75c95e744d71",
+  "torch": "2.7.1+cu128",
+  "numpy": "2.0.2",
+  "ridge_alpha": 10,
+  "pca_dim": 8,
+  "scale_floor": 1.0,
+  "dct_norm": "ortho",
+  "gate_improvement": 0.05,
+  "gate_positive_seeds": 2
+}

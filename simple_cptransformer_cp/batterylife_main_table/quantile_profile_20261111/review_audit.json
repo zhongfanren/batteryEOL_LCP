@@ -1,0 +1,9 @@
+{
+  "independent_quantiles": 2364,
+  "loss_rows": 2758,
+  "old_baseline_max_difference": 0.0,
+  "inner_isolation_checks": 90,
+  "source_hashes_unchanged": true,
+  "cal_test_excluded": true,
+  "review_sha256": "fb118771aedb8319236c2db39a9aabd86af6bafb4f44057d95c8582dae19e63e"
+}

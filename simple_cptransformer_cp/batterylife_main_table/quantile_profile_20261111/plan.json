@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-11-11T16:02:49+08:00",
+  "code_sha256": "ee9661e231762c329398c41383c53f080820ef52a8280ebdfb91e051e0d54124",
+  "hypotheses": [
+    "Hgeometry: learned low-capacity residual profile improves over BOTH global and fixed hand neighbourhood",
+    "Hmulti: three quantile coordinates add value over q90-only and lifetime-only profiles"
+  ],
+  "levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "alpha": 0.01,
+  "methods": [
+    "kernel_global",
+    "kernel_life",
+    "kernel_hand",
+    "qr_hand_q90",
+    "profile_life_3q",
+    "profile_hand_q90",
+    "profile_hand_3q"
+  ],
+  "inputs": "same life2 + hand-PCA3 design as previous frozen curve audit",
+  "postprocessing": "clip nonnegative then sort; q90-only uses same last coordinate",
+  "profile_reference": "inner leave original auxiliary fold out; same mapping for inner reference and query; mix block CDFs by n_block/n_reference",
+  "bandwidth": "half positive median fitting-profile pair distance; constant profile -> uniform within block; no search",
+  "gate": "OOF >=2% gain and >=3/5 wins vs BOTH global/hand; dev positive gain and >=3/5 view wins vs BOTH. Multi contribution: positive CV and dev vs q90-only, >=3/5 CV wins.",
+  "data": "train97 OOF + dev20 only",
+  "cal_test_evaluation": false,
+  "point_training": false,
+  "residual_score": "abs(y-p)/max(1,p)",
+  "quantile_level": 0.9,
+  "scope": "empirical-tail diagnostic, not CP; no finite-sample correction or infinity test atom",
+  "plots": "all97 primary CPMLP OOF queries; first query example fixed by membership order"
+}

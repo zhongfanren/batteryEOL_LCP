@@ -1,0 +1,6 @@
+{
+  "checkpoint_sha256": "0a95d6e6494e06a4296c30992c57bf14d2b04503978bb6948e3950945ae726ce",
+  "source_manifest_sha256": "66f511c7c7cfa89f86cb1208246a8640ae7442ab20e2f14bfaaddb4932e9b8fe",
+  "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\isu_stability_20261028\\runs\\split_20261029\\seed_2021",
+  "model": "CPLSTM"
+}

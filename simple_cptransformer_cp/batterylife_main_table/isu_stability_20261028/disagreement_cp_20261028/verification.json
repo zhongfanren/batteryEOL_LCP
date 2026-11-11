@@ -1,0 +1,7 @@
+{
+  "baseline_rows_matched_prior_batch": 10854,
+  "original_cell_rows_recomputed": 13176,
+  "independent_rlcp_intervals_checked": 8784,
+  "group_reaggregation_passed": true,
+  "source_files_unchanged": true
+}

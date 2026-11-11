@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-10-27T17:59:44+08:00",
+  "models": [
+    "CPMLP",
+    "CPLSTM"
+  ],
+  "train_seed": 2021,
+  "epochs_cap": 100,
+  "patience": 8,
+  "least_epochs": 5,
+  "manifest_sha256": "3e75f9bfbc4e85ff9af6e55450d205f5e4a788a60ef25204baed97b944537bd8",
+  "question": "Can feature-local calibration allocate width to harder cells while retaining useful coverage, on a chemically consistent multi-protocol population?",
+  "training": "Original BatteryLife 1..100 prefixes; train cells only; epoch selected on dev T=100 MAPE",
+  "evaluation": "One T=100 observation per dev/calibration/test cell; predictor frozen before calibration",
+  "methods": [
+    "split_cp",
+    "normalized_cp",
+    "base_lcp_protocol",
+    "rlcp_prediction",
+    "rlcp_protocol"
+  ],
+  "local_features": [
+    "prediction",
+    "charge rate",
+    "discharge rate"
+  ],
+  "local_bandwidth": 1.5,
+  "local_random_seed": 20261027,
+  "difficulty": "dev-fitted kernel-smoothed absolute error; no calibration/test residual used to fit difficulty",
+  "test_exploratory": true,
+  "selection": "No selection by test scores; report both models and all preset methods",
+  "caveat": "Same underlying data viewed in earlier experiments; no new-source or per-protocol coverage claim"
+}

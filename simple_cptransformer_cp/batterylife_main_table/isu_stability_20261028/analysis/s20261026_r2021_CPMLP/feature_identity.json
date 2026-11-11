@@ -1,0 +1,6 @@
+{
+  "checkpoint_sha256": "e1d8430306cdc6d3135e4b235f1e11fc2b80e513d49c9ee8c84064ce5957af57",
+  "source_manifest_sha256": "3e75f9bfbc4e85ff9af6e55450d205f5e4a788a60ef25204baed97b944537bd8",
+  "source": "D:\\Battery-LCP\\simple_cptransformer_cp\\batterylife_main_table\\curated_isu_pilot",
+  "model": "CPMLP"
+}

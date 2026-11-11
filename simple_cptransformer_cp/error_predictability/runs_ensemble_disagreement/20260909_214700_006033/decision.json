@@ -1,0 +1,23 @@
+{
+  "candidates": {
+    "mean_prediction": {
+      "improvement": 0.01961897702487292,
+      "spearman": 0.08567098857230096,
+      "positive_folds": 2,
+      "passes": false
+    },
+    "disagreement": {
+      "improvement": 0.0674394083042762,
+      "spearman": 0.1959106818734415,
+      "positive_folds": 4,
+      "passes": true
+    },
+    "disagreement_simple": {
+      "improvement": -0.004954510650913901,
+      "spearman": 0.1694816540477577,
+      "positive_folds": 2,
+      "passes": false
+    }
+  },
+  "selected": "disagreement"
+}
