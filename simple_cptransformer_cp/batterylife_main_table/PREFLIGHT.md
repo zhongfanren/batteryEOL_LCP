@@ -1,6 +1,6 @@
 # BatteryLife Li-ion main-table reproduction: preflight
 
-Date: 2026-10-20. This is the start of experiment 1 in `CONTEXT_HANDOFF.md`, before any new download or training. It does not report a reproduced model result.
+Date: 2026-10-20. Historical inventory before the main-table download and training batch. It does not report a reproduced model result.
 
 ## Protocol to reproduce
 
@@ -10,7 +10,7 @@ Date: 2026-10-20. This is the start of experiment 1 in `CONTEXT_HANDOFF.md`, bef
 
 ## Local data and dependency inventory
 
-Run `python simple_cptransformer_cp/batterylife_main_table/audit_mix_large.py` from the workspace root to repeat the read-only inventory. Current `D:\BatteryLife_Processed` has only HUST and MATR cells and their labels. All local HUST/MATR files required by the lists are present. The original train/validation/test lists have zero cell-ID overlap.
+Run `python simple_cptransformer_cp/batterylife_main_table/audit_mix_large.py` from the workspace root to repeat the read-only inventory. Current `data/BatteryLife_Processed` has only HUST and MATR cells and their labels. All local HUST/MATR files required by the lists are present. The original train/validation/test lists have zero cell-ID overlap.
 
 | Phase | Required cells | Available files and labels | Missing |
 | --- | ---: | ---: | ---: |
@@ -33,7 +33,7 @@ The `my_torch` environment has Python 3.9, PyTorch 2.7.1+cu128 and an RTX 4070 L
 
 ## Progress on 2026-10-20
 
-- The official v4 `Life labels.zip` and `UL_PUR.zip` were downloaded and passed their published MD5 checksums. All 77 HUST and 169 MATR labels in the local data matched v4 exactly. This does **not** establish that their curve files are v4. The v4 labels and UL_PUR cells were extracted to `C:\BatteryLife_v4`; HUST/MATR and the upstream seen/unseen map are linked without changing their source files.
+- The official v4 `Life labels.zip` and `UL_PUR.zip` were downloaded and passed their published MD5 checksums. All 77 HUST and 169 MATR labels in the local data matched v4 exactly. This does **not** establish that their curve files are v4. The v4 labels and UL_PUR cells were extracted to `data/BatteryLife_v4`; HUST/MATR and the upstream seen/unseen map are linked without changing their source files.
 - The v4 split lists include six `MICH_EXP` cells without EOL labels (five train, one test) and another 14 labeled cells with EOL <=100 (7/3/4 by train/validation/test). The upstream loader intentionally skips these from prefix generation; they must not be fabricated or counted as missing downloads. The preflight still requires their source files because the loader opens a file before checking its label.
 - The largest v4 archive, `ISU_ILCC.zip`, has 11.64 GB compressed and **30.31 GB extracted** according to its ZIP directory. The required 11 archives total about 16.2 GB compressed. Because D has only about 38 GB free, new data are staged on C. `stage_v4.py` verifies Zenodo MD5 values before extraction. Zenodo transfer is slow; the full data are still downloading as of this note.
 - A single-GPU adapter in `run_single_gpu.py` uses the original loader's prefix generation and original DLinear model class. It omits only three imports unused by this unweighted path (`BatteryData`, `accelerate`, `DenseWeight`), changes the launcher to one GPU with gradient accumulation, and sets Windows-safe `num_workers=0`. A one-cell smoke test produced 100 prefixes and a successful model forward pass.
@@ -42,9 +42,9 @@ The `my_torch` environment has Python 3.9, PyTorch 2.7.1+cu128 and an RTX 4070 L
 
 ## Download route update, 2026-10-20 22:59
 
-- The Zenodo v4 transfer was too slow. It was stopped without deleting its partial archives. Five complete archives (`CALCE`, `HNEI`, `SNL`, `MICH`, `MICH_EXP`) passed their published MD5 checksums and were extracted into `C:\BatteryLife_v4`.
+- The Zenodo v4 transfer was too slow. It was stopped without deleting its partial archives. Five complete archives (`CALCE`, `HNEI`, `SNL`, `MICH`, `MICH_EXP`) passed their published MD5 checksums and were extracted into `data/BatteryLife_v4`.
 - The remaining 460 required source files (43.58 GB uncompressed) are downloading with eight workers from the [official BatteryLife Hugging Face repository](https://huggingface.co/datasets/Battery-Life/BatteryLife_Processed), pinned to commit `f7a45ed5598569d3d0fdb3019bc81dd92d756c28` of 2025-03-05. One v4 ISU label JSON, one UL_PUR cell, and one HNEI cell matched the corresponding Zenodo v4 contents byte for byte. Every fetched file is checked against its published Hugging Face LFS SHA-256 before its dataset directory is activated. This is strong evidence for a v4-equivalent snapshot, but it is not a proof that every file is identical to the Zenodo ZIPs.
-- Live progress is in `hf_download_state.json` and `hf_stdout.log`; a visible PowerShell monitor displays it. The existing watcher still waits on `C:\BatteryLife_v4` and will start full-split DLinear once all listed files are present. The old `stage_stdout.log` no longer receives download updates.
+- Live progress is in `hf_download_state.json` and `hf_stdout.log`; a visible PowerShell monitor displays it. The existing watcher still waits on `data/BatteryLife_v4` and will start full-split DLinear once all listed files are present. The old `stage_stdout.log` no longer receives download updates.
 
 ## Execution update, 2026-10-21
 

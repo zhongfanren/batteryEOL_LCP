@@ -14,4 +14,4 @@
 
 查看不改变训练结果；若据此选模型、距离、参数或筛选电芯，则仍属于使用历史test进行方法开发。三个来源本身都已有test暴露，不能称全新确认性检验。
 
-原始来源和哈希见 `source_manifest.json`。横向任务定义见项目CONTEXT_HANDOFF最新说明。
+原始来源和哈希见 `source_manifest.json`。横向任务定义见项目 RESEARCH_START_HERE.md。

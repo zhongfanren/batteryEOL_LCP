@@ -2,7 +2,7 @@
 
 ## 研究总体
 
-从现有 BatteryLife v4 `MIX_large` 的固定 T=100 合格池中，取全部 239 块 `ISU_ILCC` 电芯。资格包含原加载器要求的寿命标签 EOL>100，以及100个可用前缀；不根据预测误差或期望实验结果额外筛选。每块电芯在第 100 周期形成一个 EOL 预测目标。数据文件仍留在 `C:\BatteryLife_v4\ISU_ILCC`，本目录的 `isu_ilcc_t100_candidate.json` 是可复现的电芯清单和拟议划分，不复制约 11 GB 的曲线文件。生成程序是 `build_isu_candidate.py`。
+从现有 BatteryLife v4 `MIX_large` 的固定 T=100 合格池中，取全部 239 块 `ISU_ILCC` 电芯。资格包含原加载器要求的寿命标签 EOL>100，以及100个可用前缀；不根据预测误差或期望实验结果额外筛选。每块电芯在第 100 周期形成一个 EOL 预测目标。数据文件仍留在 `data/BatteryLife_v4/ISU_ILCC`，本目录的 `isu_ilcc_t100_candidate.json` 是可复现的电芯清单和拟议划分，不复制约 11 GB 的曲线文件。生成程序是 `build_isu_candidate.py`。
 
 2026-10-28补充核查：官方划分列出240块，本地文件与标签键也都是240个。`ISU-ILCC_G40C3.pkl`的发布寿命标签为16，原加载器记为0个可用前缀，因此排除；其余239块全部入选。这里没有先按曲线相似性聚类再选样本。旧冻结JSON里“no label-based filtering”是过于笼统的历史表述，应按本段理解为“任务资格之外，不做基于标签/误差表现的额外筛选”；冻结清单保持原始字节，避免破坏既有实验指纹。
 

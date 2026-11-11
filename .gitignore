@@ -50,6 +50,7 @@ paper.txt
 # Downloaded datasets, derived caches, and smoke runs.
 dataset_v4/
 downloads_v4/
+data/
 processed_dataset_cache/
 processed_cache/
 shared_cache/

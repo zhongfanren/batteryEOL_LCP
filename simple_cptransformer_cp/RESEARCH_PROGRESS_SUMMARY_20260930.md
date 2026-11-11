@@ -338,7 +338,7 @@ HUST 与 MATR 名义体系相近，但协议和分布仍有差异。HUST 可以�
 ## 九、关键实验产物
 
 - 固定 T=100 项目说明：`simple_cptransformer_cp/README.md`
-- 交接与状态：`simple_cptransformer_cp/CONTEXT_HANDOFF.md`
+- 交接与状态：`simple_cptransformer_cp/RESEARCH_START_HERE.md`
 - 实验流水记录：`simple_cptransformer_cp/EXPERIMENT_LOG.md`
 - 误差可预测性：`error_predictability/runs_robust_crossfit/20260909_213627_783683/decision.json`
 - 固定 RBF/Hopfield/频域开发期对照：`learnable_localizers/runs/20260926_204015_941884/summary.json`

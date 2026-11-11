@@ -19,7 +19,7 @@
 ## 运行与查看
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -NoExit -File D:\Battery-LCP\simple_cptransformer_cp\batterylife_main_table\start_isu_stability.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -NoExit -File simple_cptransformer_cp/batterylife_main_table/start_isu_stability.ps1
 ```
 
 - `plan.json`：运行前冻结的假设、方法、种子、代码指纹和任务清单。

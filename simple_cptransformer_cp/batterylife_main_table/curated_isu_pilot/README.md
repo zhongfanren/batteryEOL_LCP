@@ -19,7 +19,7 @@
 在工作区 PowerShell 运行：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -NoExit -File D:\Battery-LCP\simple_cptransformer_cp\batterylife_main_table\start_curated_isu.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -NoExit -File simple_cptransformer_cp/batterylife_main_table/start_curated_isu.ps1
 ```
 
 可见终端显示数据预处理、每 100 batch 的进度、每个 epoch 的开发集 MAPE；两个模型串行执行，结束后自动完成区间评估。启动后不需要聊天助手轮询进程。
@@ -33,7 +33,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -NoExit -File D:\Battery-LCP\simpl
 复算已完成模型的区间分析无需训练，例如：
 
 ```powershell
-& D:\Anaconda3\envs\my_torch\python.exe simple_cptransformer_cp/batterylife_main_table/run_curated_isu.py --model CPMLP --evaluate-only
+& python simple_cptransformer_cp/batterylife_main_table/run_curated_isu.py --model CPMLP --evaluate-only
 ```
 
 本轮保留全部已完成文件。若训练被中断，先确认原进程已停止；当前脚本不会覆盖已开始的训练，重新完整训练应使用新的 `--out` 目录。预处理缓存用于节省第二个预测器重复读取曲线的时间。

@@ -29,11 +29,11 @@ This is exploratory: CPMLP was chosen using earlier reproduction results on the 
 
 ## Reproduce / inspect
 
-Run with `D:\Anaconda3\envs\my_torch\python.exe` from `D:\Battery-LCP`:
+Run with `python` from `.`:
 
 ```powershell
-& D:\Anaconda3\envs\my_torch\python.exe simple_cptransformer_cp/batterylife_main_table/run_mixed_liion_pilot.py --prepare
-& D:\Anaconda3\envs\my_torch\python.exe -u simple_cptransformer_cp/batterylife_main_table/run_mixed_liion_pilot.py
+& python simple_cptransformer_cp/batterylife_main_table/run_mixed_liion_pilot.py --prepare
+& python -u simple_cptransformer_cp/batterylife_main_table/run_mixed_liion_pilot.py
 ```
 
 The completed directory intentionally refuses to overwrite its frozen manifest or run. Inspect `results.json` for metrics, `test_intervals.csv` for each test cell, `calibration_predictions.csv` for calibration scores, `config.json` and `best_model.pt` for the predictor, and `run.log` for training progress. `results.json` and `test_intervals.csv` were independently checked against the manifest and calibration score rank after the run.

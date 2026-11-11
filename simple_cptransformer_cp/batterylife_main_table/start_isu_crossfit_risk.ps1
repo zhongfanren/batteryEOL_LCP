@@ -8,7 +8,7 @@ Write-Host 'Original main predictors and calibration/test membership remain froz
 Write-Host '10 auxiliary jobs: inner epoch selection -> outer refit -> held-out T100 predictions.'
 Write-Host 'Automatic risk and CP/LCP evaluation follows all 10 completed jobs.'
 Write-Host 'Progress: simple_cptransformer_cp\batterylife_main_table\isu_crossfit_risk_20261028\state.json'
-& 'D:\Anaconda3\envs\my_torch\python.exe' -u (Join-Path $PSScriptRoot 'run_isu_crossfit_risk.py') --queue
+& python -u (Join-Path $PSScriptRoot 'run_isu_crossfit_risk.py') --queue
 if ($LASTEXITCODE -ne 0) {
     Write-Host 'Queue failed. Inspect state.json and folds\job\console.log.' -ForegroundColor Red
 } else {
